@@ -1,4 +1,5 @@
 
+
 {
   "web": {
     "easy": [
@@ -109,10 +110,10 @@
       },
       {
         "id": 71,
-        "question": "Which HTML tag is used to create an ordered list?",
-        "options": ["<ul>", "<ol>", "<list>", "<order>"],
+        "question": "Which HTML tag is used to create an unordered list?",
+        "options": ["<ol>", "<ul>", "<list>", "<item>"],
         "correct": 1,
-        "explanation": "The <ol> tag creates an ordered (numbered) list in HTML."
+        "explanation": "The <ul> tag creates an unordered (bulleted) list in HTML."
       },
       {
         "id": 72,
@@ -126,7 +127,7 @@
         "question": "Which CSS property is used to make text bold?",
         "options": ["font-weight", "text-bold", "bold", "font-bold"],
         "correct": 0,
-        "explanation": "The 'font-weight' property is used to make text bold in CSS."
+        "explanation": "The 'font-weight' property is used to make text bold in CSS, typically with the value 'bold'."
       },
       {
         "id": 74,
@@ -140,77 +141,567 @@
         "question": "Which attribute is used to merge table cells horizontally?",
         "options": ["rowspan", "colspan", "merge", "span"],
         "correct": 1,
-        "explanation": "The 'colspan' attribute is used to merge table cells horizontally."
+        "explanation": "The 'colspan' attribute is used to merge table cells horizontally across columns."
       },
       {
         "id": 76,
         "question": "What is the HTML tag for creating a form?",
         "options": ["<form>", "<input>", "<field>", "<submit>"],
         "correct": 0,
-        "explanation": "The <form> tag is used to create forms in HTML."
+        "explanation": "The <form> tag is used to create HTML forms for user input."
       },
       {
         "id": 77,
         "question": "Which CSS property is used to center text?",
         "options": ["text-center", "align", "text-align", "center"],
         "correct": 2,
-        "explanation": "The 'text-align' property is used to center text in CSS."
+        "explanation": "The 'text-align' property is used to center text horizontally within its container."
       },
       {
         "id": 78,
         "question": "What is the HTML comment syntax?",
-        "options": ["// comment", "/* comment */", "<!-- comment -->", "# comment"],
+        "options": ["// comment", "/* comment */", "", "# comment"],
         "correct": 2,
-        "explanation": "HTML comments use the <!-- comment --> syntax."
+        "explanation": "HTML comments are enclosed in ."
       },
       {
         "id": 79,
         "question": "Which HTML element represents a paragraph?",
         "options": ["<p>", "<para>", "<paragraph>", "<text>"],
         "correct": 0,
-        "explanation": "The <p> element represents a paragraph in HTML."
+        "explanation": "The <p> element is used to define a paragraph of text in HTML."
       },
       {
         "id": 80,
         "question": "What is the correct HTML for creating a dropdown list?",
         "options": ["<select>", "<dropdown>", "<list>", "<options>"],
         "correct": 0,
-        "explanation": "The <select> element is used to create dropdown lists in HTML."
+        "explanation": "The <select> element is used to create a dropdown list in HTML, typically populated with <option> elements."
       },
       {
         "id": 81,
         "question": "Which CSS property controls spacing between letters?",
         "options": ["letter-spacing", "text-spacing", "char-spacing", "font-spacing"],
         "correct": 0,
-        "explanation": "The 'letter-spacing' property controls the spacing between letters."
+        "explanation": "The 'letter-spacing' property controls the horizontal spacing between characters of text."
       },
       {
         "id": 82,
         "question": "What is the HTML tag for creating a division or section?",
         "options": ["<div>", "<section>", "<part>", "<block>"],
         "correct": 0,
-        "explanation": "The <div> tag is commonly used to create divisions or sections in HTML."
+        "explanation": "The <div> tag is a generic container used to group content for styling or scripting purposes, creating a division or section."
       },
       {
         "id": 83,
         "question": "Which attribute specifies the URL of a hyperlink?",
         "options": ["src", "href", "url", "link"],
         "correct": 1,
-        "explanation": "The 'href' attribute specifies the URL of a hyperlink."
+        "explanation": "The 'href' (hypertext reference) attribute specifies the URL of the page the link goes to."
       },
       {
         "id": 84,
         "question": "What is the HTML tag for creating emphasis (italic text)?",
         "options": ["<i>", "<em>", "<italic>", "<emphasis>"],
         "correct": 1,
-        "explanation": "The <em> tag is used for emphasis (usually displayed as italic)."
+        "explanation": "The <em> tag is used to define emphasized text. The content inside is typically displayed in italic."
       },
       {
         "id": 85,
         "question": "Which CSS property is used to hide an element?",
-        "options": ["display", "visibility", "hide", "show"],
+        "options": ["display: none;", "visibility: hidden;", "opacity: 0;", "All of the above"],
+        "correct": 3,
+        "explanation": "'display: none;' removes the element from the layout. 'visibility: hidden;' hides the element but it still takes up space. 'opacity: 0;' makes it fully transparent. All can be used to 'hide' an element in different ways."
+      },
+      {
+        "id": 115,
+        "question": "What is the default display value for a <div> element?",
+        "options": ["inline", "block", "inline-block", "none"],
+        "correct": 1,
+        "explanation": "The default display value for a <div> element is 'block', meaning it starts on a new line and takes up the full width available."
+      },
+      {
+        "id": 116,
+        "question": "Which HTML tag is used to define a table row?",
+        "options": ["<td>", "<tr>", "<th>", "<table>"],
+        "correct": 1,
+        "explanation": "The <tr> tag is used to define a row in an HTML table."
+      },
+      {
+        "id": 117,
+        "question": "In CSS, what does 'padding' refer to?",
+        "options": ["Space outside the border", "Space between content and border", "The thickness of the border", "Space between elements"],
+        "correct": 1,
+        "explanation": "Padding refers to the space between the content of an element and its border."
+      },
+      {
+        "id": 118,
+        "question": "Which tag is used to embed JavaScript code directly into an HTML page?",
+        "options": ["<javascript>", "<js>", "<script>", "<embed>"],
+        "correct": 2,
+        "explanation": "The <script> tag is used to embed or refer to executable JavaScript code."
+      },
+      {
+        "id": 119,
+        "question": "What does the 'src' attribute in an <img> tag stand for?",
+        "options": ["Source", "Script", "Style", "Screen"],
         "correct": 0,
-        "explanation": "The 'display' property (set to 'none') is commonly used to hide elements."
+        "explanation": "The 'src' attribute specifies the URL (source) of the image to be displayed."
+      },
+      {
+        "id": 120,
+        "question": "Which CSS selector selects all elements with a specific class?",
+        "options": ["#classname", ".classname", "classname", "*classname"],
+        "correct": 1,
+        "explanation": "The dot (.) followed by the class name (e.g., .classname) selects all elements with that class."
+      },
+      {
+        "id": 121,
+        "question": "What is the purpose of the HTML <head> element?",
+        "options": ["To define the main content of the page", "To contain meta-information about the HTML document", "To display a header at the top of the page", "To list navigation links"],
+        "correct": 1,
+        "explanation": "The <head> element contains meta-information about the HTML document, such as its title, character set, styles, links, scripts, etc., which are not displayed on the page itself."
+      },
+      {
+        "id": 122,
+        "question": "Which CSS property adds shadows to text?",
+        "options": ["text-shadow", "font-shadow", "shadow-text", "box-shadow"],
+        "correct": 0,
+        "explanation": "The 'text-shadow' property adds shadow effects to text."
+      },
+      {
+        "id": 123,
+        "question": "What is the correct HTML element for playing video files?",
+        "options": ["<media>", "<movie>", "<video>", "<source>"],
+        "correct": 2,
+        "explanation": "The <video> tag is used to embed video content in an HTML document."
+      },
+      {
+        "id": 124,
+        "question": "Which CSS property is used to control the order of flex items?",
+        "options": ["flex-order", "item-order", "order", "flex-position"],
+        "correct": 2,
+        "explanation": "The 'order' property controls the order in which flex items appear in the flex container."
+      },
+      {
+        "id": 125,
+        "question": "What does 'localhost' typically refer to in web development?",
+        "options": ["A remote server", "Your own computer", "A hosting provider", "A search engine"],
+        "correct": 1,
+        "explanation": "'localhost' is a hostname that refers to the current computer being used. It's commonly used to access web servers running locally for development."
+      },
+      {
+        "id": 126,
+        "question": "Which HTML input type is used for password fields?",
+        "options": ["<input type='hidden'>", "<input type='secure'>", "<input type='password'>", "<input type='mask'>"],
+        "correct": 2,
+        "explanation": "<input type='password'> is used for password fields, which masks the input characters."
+      },
+      {
+        "id": 127,
+        "question": "In CSS, what does 'margin' refer to?",
+        "options": ["Space inside the border", "Space between content and border", "Space outside the border", "The thickness of the border"],
+        "correct": 2,
+        "explanation": "Margin refers to the space outside the border of an element, clearing an area around it."
+      },
+      {
+        "id": 128,
+        "question": "Which HTML tag is used to define the document's body?",
+        "options": ["<content>", "<body>", "<main>", "<structure>"],
+        "correct": 1,
+        "explanation": "The <body> tag defines the main content of the HTML document that is displayed in the browser."
+      },
+      {
+        "id": 129,
+        "question": "Which of these is a JavaScript data type?",
+        "options": ["String", "Character", "Integer", "Float"],
+        "correct": 0,
+        "explanation": "String is a primitive data type in JavaScript used for textual data. Integer and Float are sub-types of the 'number' data type."
+      },
+      {
+        "id": 130,
+        "question": "What does the 'alt' attribute in an <img> tag provide when an image cannot be displayed?",
+        "options": ["A caption for the image", "A link to the image", "Alternative text describing the image", "The image's dimensions"],
+        "correct": 2,
+        "explanation": "The 'alt' attribute provides alternative text that is displayed if the image cannot be loaded, and is also used by screen readers for accessibility."
+      },
+      {
+        "id": 131,
+        "question": "Which CSS unit represents a percentage of the viewport width?",
+        "options": ["%", "vw", "vh", "vmin"],
+        "correct": 1,
+        "explanation": "'vw' stands for viewport width. 1vw is equal to 1% of the viewport's width."
+      },
+      {
+        "id": 132,
+        "question": "How do you select an element with the id 'header' in CSS?",
+        "options": [".header", "#header", "header", "*header"],
+        "correct": 1,
+        "explanation": "In CSS, '#' followed by the id name (e.g., #header) is used to select an element with that specific id."
+      },
+      {
+        "id": 133,
+        "question": "What is the main purpose of a web browser?",
+        "options": ["To write code", "To host websites", "To interpret and display web pages", "To manage databases"],
+        "correct": 2,
+        "explanation": "A web browser's main purpose is to fetch, interpret, and render HTML, CSS, and JavaScript to display web pages to the user."
+      },
+      {
+        "id": 134,
+        "question": "Which HTML tag is used to create a radio button?",
+        "options": ["<input type='radio'>", "<input type='button'>", "<radio>", "<button type='radio'>"],
+        "correct": 0,
+        "explanation": "The correct HTML for creating a radio button is <input type='radio'>."
+      },
+      {
+        "id": 135,
+        "question": "What CSS property changes the font of an element?",
+        "options": ["font-style", "text-font", "font-family", "font-type"],
+        "correct": 2,
+        "explanation": "The 'font-family' CSS property is used to specify the font for an element."
+      },
+      {
+        "id": 136,
+        "question": "Which HTML element is used to define important text?",
+        "options": ["<important>", "<b>", "<strong>", "<highlight>"],
+        "correct": 2,
+        "explanation": "The <strong> tag is used to indicate text that has strong importance, seriousness, or urgency. Browsers typically render this as bold text."
+      },
+      {
+        "id": 137,
+        "question": "What is the CSS 'float' property commonly used for?",
+        "options": ["Making text float over images", "Aligning text vertically", "Wrapping text around images or elements", "Animating elements"],
+        "correct": 2,
+        "explanation": "The 'float' property was traditionally used to allow elements (like images) to be pushed to the left or right, with other content (like text) wrapping around them."
+      },
+      {
+        "id": 138,
+        "question": "Which JavaScript keyword is used to declare a constant variable?",
+        "options": ["var", "let", "const", "static"],
+        "correct": 2,
+        "explanation": "The 'const' keyword is used to declare a variable whose value cannot be reassigned after its initial assignment."
+      },
+      {
+        "id": 139,
+        "question": "What is the standard file extension for an HTML file?",
+        "options": [".html or .htm", ".web", ".hml", ".doc"],
+        "correct": 0,
+        "explanation": "The standard file extensions for HTML files are .html and .htm."
+      },
+      {
+        "id": 140,
+        "question": "Which part of the CSS box model is outside the border?",
+        "options": ["Padding", "Margin", "Content", "Outline"],
+        "correct": 1,
+        "explanation": "The margin is the outermost part of the CSS box model, creating space around the element, outside its border."
+      },
+      {
+        "id": 141,
+        "question": "Which of the following is NOT a semantic HTML5 element?",
+        "options": ["<article>", "<nav>", "<div>", "<aside>"],
+        "correct": 2,
+        "explanation": "While <div> is a valid and widely used HTML element, it is a generic container and does not carry semantic meaning about its content, unlike <article>, <nav>, and <aside>."
+      },
+      {
+        "id": 142,
+        "question": "In CSS, what does RGB stand for?",
+        "options": ["Red Green Blue", "Real Graphics Buffer", "Rendered Graphic Base", "Red Grey Black"],
+        "correct": 0,
+        "explanation": "RGB stands for Red, Green, and Blue, the three primary colors of light used to create a broad spectrum of colors on digital displays."
+      },
+      {
+        "id": 143,
+        "question": "What is the purpose of JavaScript comments?",
+        "options": ["To make the code run faster", "To explain the code and make it more readable", "To hide code from the browser", "To add extra functionality"],
+        "correct": 1,
+        "explanation": "JavaScript comments are used to add explanatory notes to the code, making it easier for developers to understand."
+      },
+      {
+        "id": 144,
+        "question": "Which HTML tag is used to define list items in both ordered and unordered lists?",
+        "options": ["<item>", "<li>", "<dl>", "<dd>"],
+        "correct": 1,
+        "explanation": "The <li> (list item) tag is used to define each item within an <ol> (ordered list) or <ul> (unordered list)."
+      },
+      {
+        "id": 145,
+        "question": "Which HTTP method is typically used to request data from a server?",
+        "options": ["POST", "GET", "PUT", "DELETE"],
+        "correct": 1,
+        "explanation": "The GET method is used to request data from a specified resource on a server."
+      },
+      {
+        "id": 146,
+        "question": "What does 'responsive web design' mean?",
+        "options": ["The website responds quickly to user input", "The website's layout adapts to different screen sizes and devices", "The website has many interactive elements", "The website uses a lot of JavaScript"],
+        "correct": 1,
+        "explanation": "Responsive web design is an approach that makes web pages render well on a variety of devices and window or screen sizes."
+      },
+      {
+        "id": 147,
+        "question": "Which CSS property can be used to create space between lines of text?",
+        "options": ["text-spacing", "line-height", "letter-spacing", "word-spacing"],
+        "correct": 1,
+        "explanation": "The 'line-height' property specifies the height of a line of text, effectively creating space between lines."
+      },
+      {
+        "id": 148,
+        "question": "What is the root element of an HTML document?",
+        "options": ["<body>", "<html>", "<head>", "<!DOCTYPE html>"],
+        "correct": 1,
+        "explanation": "The <html> element is the root element of an HTML page, encompassing all other elements except the doctype declaration."
+      },
+      {
+        "id": 149,
+        "question": "Which operator is used for concatenation in JavaScript?",
+        "options": ["&", "+", "*", "&&"],
+        "correct": 1,
+        "explanation": "The plus (+) operator is used for string concatenation in JavaScript."
+      },
+      {
+        "id": 150,
+        "question": "What is the purpose of the 'target=\"_blank\"' attribute in an anchor <a> tag?",
+        "options": ["To open the link in the same window", "To open the link in a new browser tab or window", "To prevent the link from being followed", "To link to a blank page"],
+        "correct": 1,
+        "explanation": "The 'target=\"_blank\"' attribute tells the browser to open the linked document in a new window or tab."
+      },
+      {
+        "id": 151,
+        "question": "Which CSS value for the 'position' property removes an element from the normal document flow?",
+        "options": ["static", "relative", "absolute", "fixed"],
+        "correct": 2,
+        "explanation": "'absolute' and 'fixed' positioning remove an element from the normal document flow, allowing it to be placed relative to a containing element or the viewport respectively."
+      },
+      {
+        "id": 152,
+        "question": "What HTML tag is used to define a client-side script, such as JavaScript?",
+        "options": ["<scripting>", "<js>", "<clientscript>", "<script>"],
+        "correct": 3,
+        "explanation": "The <script> tag is used to embed or reference client-side scripts, typically JavaScript."
+      },
+      {
+        "id": 153,
+        "question": "What is the CSS Box Model order from innermost to outermost?",
+        "options": ["Margin, Border, Padding, Content", "Content, Padding, Border, Margin", "Content, Border, Padding, Margin", "Padding, Content, Border, Margin"],
+        "correct": 1,
+        "explanation": "The CSS Box Model consists of: Content (innermost), then Padding, then Border, and finally Margin (outermost)."
+      },
+      {
+        "id": 154,
+        "question": "Which HTML structure is correct?",
+        "options": ["<head><body><html>", "<html><head><body>", "<body><head><html>", "<html><body><head>"],
+        "correct": 1,
+        "explanation": "The correct basic HTML structure is <html> containing <head> and then <body>."
+      },
+      {
+        "id": 155,
+        "question": "Which CSS property is used to control the transparency of an element?",
+        "options": ["visibility", "transparent", "opacity", "alpha"],
+        "correct": 2,
+        "explanation": "The 'opacity' property sets the opacity level for an element. An opacity of 0 is fully transparent, and 1 is fully opaque."
+      },
+      {
+        "id": 156,
+        "question": "What does 'URL' stand for?",
+        "options": ["Uniform Resource Locator", "Universal Reference Link", "Uniform Resource Link", "Universal Resource Locator"],
+        "correct": 0,
+        "explanation": "URL stands for Uniform Resource Locator, which is the address of a resource on the Internet."
+      },
+      {
+        "id": 157,
+        "question": "Which HTML element is used to create a numbered list?",
+        "options": ["<ul>", "<ol>", "<nl>", "<dl>"],
+        "correct": 1,
+        "explanation": "The <ol> (ordered list) element is used to create a list where the items are numbered."
+      },
+      {
+        "id": 158,
+        "question": "What is the correct way to write a comment in JavaScript that spans multiple lines?",
+        "options": ["// This is a comment", "", "/* This is a comment */", "## This is a comment"],
+        "correct": 2,
+        "explanation": "Multi-line comments in JavaScript are written between /* and */."
+      },
+      {
+        "id": 159,
+        "question": "Which attribute is required for an <img> tag to display an image?",
+        "options": ["alt", "title", "src", "href"],
+        "correct": 2,
+        "explanation": "The 'src' (source) attribute is required for an <img> tag as it specifies the path to the image."
+      },
+      {
+        "id": 160,
+        "question": "Which CSS selector targets elements with the id 'main-content'?",
+        "options": [".main-content", "#main-content", "main-content", "element#main-content"],
+        "correct": 1,
+        "explanation": "The '#' symbol followed by the id name (e.g., #main-content) is used to select an element by its id."
+      },
+      {
+        "id": 161,
+        "question": "What HTML tag is used to define the header for a document or section?",
+        "options": ["<head>", "<header>", "<top>", "<heading>"],
+        "correct": 1,
+        "explanation": "The <header> element represents introductory content, typically a group of introductory or navigational aids. It can contain headings, logos, search forms, etc."
+      },
+      {
+        "id": 162,
+        "question": "In CSS, how do you group multiple selectors that share the same style rules?",
+        "options": ["By separating them with a plus (+)", "By separating them with a comma (,)", "By nesting them", "By separating them with a space"],
+        "correct": 1,
+        "explanation": "You can group selectors by separating them with a comma. For example, `h1, h2, p { color: blue; }`."
+      },
+      {
+        "id": 163,
+        "question": "What is the role of the `<!DOCTYPE html>` declaration?",
+        "options": ["It tells the browser this is an XML document", "It specifies the character encoding", "It informs the browser that the document is an HTML5 document", "It links to an external stylesheet"],
+        "correct": 2,
+        "explanation": "The `<!DOCTYPE html>` declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in. For HTML5, it's simple and case-insensitive."
+      },
+      {
+        "id": 164,
+        "question": "Which HTML tag is used for creating a button?",
+        "options": ["<input type='button'>", "<button>", "<btn>", "Both A and B"],
+        "correct": 3,
+        "explanation": "Both `<input type='button'>` and the `<button>` element can be used to create clickable buttons in HTML. The `<button>` tag offers more flexibility in content."
+      },
+      {
+        "id": 165,
+        "question": "What does the CSS property `font-style: italic;` do?",
+        "options": ["Makes the text bold", "Makes the text underlined", "Makes the text italic", "Changes the font family"],
+        "correct": 2,
+        "explanation": "`font-style: italic;` selects the italic version of the current font."
+      },
+      {
+        "id": 166,
+        "question": "Which of these is NOT a valid color representation in CSS?",
+        "options": ["#FF0000", "rgb(255,0,0)", "color: red;", "hsl(0, 100%, 50%)"],
+        "correct": 2,
+        "explanation": "`color: red;` is a CSS rule, not just a color value. The others are valid color value representations (hex, RGB, HSL)."
+      },
+      {
+        "id": 167,
+        "question": "What is the HTML tag used to define a horizontal rule?",
+        "options": ["<line>", "<hr>", "<rule>", "<divider>"],
+        "correct": 1,
+        "explanation": "The `<hr>` (horizontal rule) tag is used to create a thematic break in an HTML page, often displayed as a horizontal line."
+      },
+      {
+        "id": 168,
+        "question": "Which HTML attribute is used to define the character encoding for the document?",
+        "options": ["<meta charset='UTF-8'>", "<meta encoding='UTF-8'>", "<charset type='UTF-8'>", "<script charset='UTF-8'>"],
+        "correct": 0,
+        "explanation": "The `<meta charset='UTF-8'>` tag within the `<head>` section specifies the character encoding for the HTML document."
+      },
+      {
+        "id": 169,
+        "question": "What is the CSS property for setting the space between table cells?",
+        "options": ["cell-spacing", "border-spacing", "table-padding", "cell-padding"],
+        "correct": 1,
+        "explanation": "The `border-spacing` property specifies the distance between the borders of adjacent table cells (only for `border-collapse: separate`)."
+      },
+      {
+        "id": 170,
+        "question": "In JavaScript, how can you get the element with id 'myElement'?",
+        "options": ["document.getElement('myElement')", "document.querySelector('#myElement')", "page.getElementById('myElement')", "window.find('myElement')"],
+        "correct": 1,
+        "explanation": "`document.querySelector('#myElement')` or `document.getElementById('myElement')` can be used. `querySelector` is more versatile."
+      },
+      {
+        "id": 171,
+        "question": "Which HTML tag is used to embed an external CSS file?",
+        "options": ["<style src='style.css'>", "<css href='style.css'>", "<link rel='stylesheet' href='style.css'>", "<script type='text/css' src='style.css'>"],
+        "correct": 2,
+        "explanation": "The `<link rel='stylesheet' href='style.css'>` tag, placed within the `<head>` section, is used to link an external CSS file."
+      },
+      {
+        "id": 172,
+        "question": "What is the purpose of the HTML `class` attribute?",
+        "options": ["To specify a unique identifier for an element", "To specify one or more class names for an element, for styling with CSS", "To define the type of an input element", "To set the language of an element"],
+        "correct": 1,
+        "explanation": "The `class` attribute is used to specify one or more class names for an HTML element, which can then be used by CSS and JavaScript to select and style or manipulate those elements."
+      },
+      {
+        "id": 173,
+        "question": "Which CSS property can be used to make text appear in all uppercase or all lowercase?",
+        "options": ["text-transform", "font-case", "text-style", "letter-case"],
+        "correct": 0,
+        "explanation": "The `text-transform` property can be set to `uppercase`, `lowercase`, or `capitalize` to change the case of text."
+      },
+      {
+        "id": 174,
+        "question": "What is the HTML element used to represent a caption for a table?",
+        "options": ["<caption>", "<legend>", "<figcaption>", "<table-header>"],
+        "correct": 0,
+        "explanation": "The `<caption>` element is used to define a caption or title for an HTML table."
+      },
+      {
+        "id": 175,
+        "question": "What is the primary role of a web server?",
+        "options": ["To display web pages in a browser", "To store and deliver web page content to clients (browsers)", "To design websites", "To write HTML code"],
+        "correct": 1,
+        "explanation": "A web server's primary role is to store website files (HTML, CSS, images, etc.) and deliver them to a user's web browser upon request."
+      },
+      {
+        "id": 176,
+        "question": "Which HTML input type is used for submitting a form?",
+        "options": ["<input type='submit'>", "<input type='button'>", "<input type='send'>", "<button type='send'>"],
+        "correct": 0,
+        "explanation": "`<input type='submit'>` creates a button that, when clicked, submits the form data to the server."
+      },
+      {
+        "id": 177,
+        "question": "What CSS property is used to set the width of an element?",
+        "options": ["element-width", "size-x", "width", "horizontal-size"],
+        "correct": 2,
+        "explanation": "The `width` CSS property is used to set the width of an element."
+      },
+      {
+        "id": 178,
+        "question": "What does the JavaScript `typeof` operator return for an array?",
+        "options": ["'array'", "'object'", "'list'", "'arrayobject'"],
+        "correct": 1,
+        "explanation": "In JavaScript, arrays are a type of object, so `typeof []` will return 'object'."
+      },
+      {
+        "id": 179,
+        "question": "Which HTML tag defines an independent, self-contained piece of content, such as a blog post or news article?",
+        "options": ["<section>", "<div>", "<article>", "<aside>"],
+        "correct": 2,
+        "explanation": "The `<article>` tag is a semantic HTML5 element designed for self-contained compositions like forum posts, blog entries, or news stories."
+      },
+      {
+        "id": 180,
+        "question": "Which CSS pseudo-class is used to select an element when the mouse pointer is over it?",
+        "options": [":focus", ":active", ":hover", ":visited"],
+        "correct": 2,
+        "explanation": "The `:hover` pseudo-class applies styles to an element when the user hovers over it with their mouse pointer."
+      },
+      {
+        "id": 181,
+        "question": "What is the purpose of the `placeholder` attribute in an HTML `<input>` tag?",
+        "options": ["To provide a default value for the input field", "To specify the name of the input field", "To provide a short hint that describes the expected value of an input field", "To make the input field read-only"],
+        "correct": 2,
+        "explanation": "The `placeholder` attribute provides a hint to the user of what can be entered in the input field. It disappears when the user starts typing."
+      },
+      {
+        "id": 182,
+        "question": "Which HTML element is used to group related form elements together and optionally add a caption with `<legend>`?",
+        "options": ["<div>", "<group>", "<fieldset>", "<formgroup>"],
+        "correct": 2,
+        "explanation": "The `<fieldset>` element is used to group related elements in a form, and the `<legend>` tag defines a caption for the `<fieldset>`."
+      },
+      {
+        "id": 183,
+        "question": "What does `100vh` in CSS represent?",
+        "options": ["100 pixels height", "100% of the parent element's height", "100% of the viewport height", "100% of the document height"],
+        "correct": 2,
+        "explanation": "`vh` stands for viewport height. `100vh` means 100% of the height of the browser's viewport."
+      },
+      {
+        "id": 184,
+        "question": "In JavaScript, what does `null` represent?",
+        "options": ["An uninitialized variable", "An empty string", "The intentional absence of any object value", "An error condition"],
+        "correct": 2,
+        "explanation": "`null` is a primitive value that represents the intentional absence of any object value. It is often explicitly assigned by developers."
       }
     ],
     "medium": [
@@ -223,715 +714,1662 @@
       },
       {
         "id": 17,
-        "question": "What is the correct way to declare a JavaScript variable?",
-        "options": ["var name;", "variable name;", "v name;", "declare name;"],
-        "correct": 0,
-        "explanation": "In JavaScript, variables can be declared using 'var', 'let', or 'const' keywords. 'var name;' is the traditional way to declare a variable."
+        "question": "What is the correct way to declare a JavaScript variable that can be reassigned?",
+        "options": ["var name;", "let name;", "const name;", "Both A and B"],
+        "correct": 3,
+        "explanation": "In JavaScript, variables can be declared using 'var' or 'let' for reassignment. 'const' is for variables that cannot be reassigned. 'let' is block-scoped, while 'var' is function-scoped."
       },
       {
         "id": 18,
         "question": "Which operator is used to assign a value to a variable?",
         "options": ["*", "=", "x", "-"],
         "correct": 1,
-        "explanation": "The = operator is used to assign values to variables in JavaScript."
+        "explanation": "The = operator is the assignment operator, used to assign values to variables in JavaScript."
       },
       {
         "id": 19,
         "question": "What will the following code return: Boolean(10 > 9)",
         "options": ["true", "false", "NaN", "undefined"],
         "correct": 0,
-        "explanation": "Boolean(10 > 9) returns true because 10 is greater than 9."
+        "explanation": "Boolean(10 > 9) returns true because the expression 10 > 9 is true."
       },
       {
         "id": 20,
         "question": "Which event occurs when the user clicks on an HTML element?",
         "options": ["onchange", "onclick", "onmouseclick", "onmouseover"],
         "correct": 1,
-        "explanation": "The onclick event occurs when the user clicks on an HTML element."
+        "explanation": "The onclick event is triggered when a user clicks on an HTML element to which this event handler is attached."
       },
       {
         "id": 21,
         "question": "How do you write 'Hello World' in an alert box?",
         "options": ["alertBox('Hello World');", "msg('Hello World');", "alert('Hello World');", "msgBox('Hello World');"],
         "correct": 2,
-        "explanation": "The alert() function is used to display an alert box with a message."
+        "explanation": "The alert() function in JavaScript is used to display an alert box with a specified message and an OK button."
       },
       {
         "id": 22,
         "question": "How do you create a function in JavaScript?",
         "options": ["function = myFunction() {}", "function myFunction() {}", "create myFunction() {}", "function:myFunction() {}"],
         "correct": 1,
-        "explanation": "Functions in JavaScript are created using the 'function' keyword followed by the function name."
+        "explanation": "Functions in JavaScript are defined using the 'function' keyword, followed by the function name, parentheses for parameters, and curly braces for the function body."
       },
       {
         "id": 23,
         "question": "How do you call a function named 'myFunction'?",
         "options": ["call function myFunction()", "call myFunction()", "myFunction()", "execute myFunction()"],
         "correct": 2,
-        "explanation": "Functions are called by writing the function name followed by parentheses."
+        "explanation": "To execute or call a function in JavaScript, you write the function's name followed by parentheses: myFunction()."
       },
       {
         "id": 24,
         "question": "How to write an IF statement in JavaScript?",
         "options": ["if i = 5 then", "if i == 5 then", "if (i == 5)", "if i = 5"],
         "correct": 2,
-        "explanation": "IF statements in JavaScript use the syntax: if (condition) {...}"
+        "explanation": "An IF statement in JavaScript is written with the 'if' keyword, followed by a condition in parentheses, and then a block of code to be executed if the condition is true."
       },
       {
         "id": 25,
-        "question": "Which method removes the last element from an array?",
-        "options": ["pop()", "remove()", "delete()", "last()"],
+        "question": "Which method removes the last element from an array and returns that element?",
+        "options": ["pop()", "removeLast()", "deleteLast()", "trimEnd()"],
         "correct": 0,
-        "explanation": "The pop() method removes and returns the last element from an array."
+        "explanation": "The pop() method removes the last element from an array, modifies the original array, and returns the removed element."
       },
       {
         "id": 86,
-        "question": "What is the difference between 'let' and 'var' in JavaScript?",
-        "options": ["No difference", "let has block scope, var has function scope", "var is newer", "let is faster"],
+        "question": "What is the difference between 'let' and 'var' in JavaScript regarding scope?",
+        "options": ["No difference in scope", "let has block scope, var has function scope", "var has block scope, let has function scope", "Both have global scope by default"],
         "correct": 1,
-        "explanation": "'let' has block scope while 'var' has function scope, making 'let' more predictable."
+        "explanation": "'let' allows you to declare variables that are limited in scope to the block, statement, or expression on which it is used. 'var' declares a variable globally, or locally to an entire function regardless of block scope."
       },
       {
         "id": 87,
-        "question": "Which method is used to remove the first element from an array?",
-        "options": ["shift()", "unshift()", "pop()", "remove()"],
+        "question": "Which method removes the first element from an array and returns that element?",
+        "options": ["shift()", "unshift()", "pop()", "removeFirst()"],
         "correct": 0,
-        "explanation": "The shift() method removes and returns the first element from an array."
+        "explanation": "The shift() method removes the first element from an array, modifies the original array, and returns the removed element."
       },
       {
         "id": 88,
         "question": "What does JSON stand for?",
         "options": ["JavaScript Object Notation", "Java Standard Object Notation", "JavaScript Organized Notation", "Java Script Object Network"],
         "correct": 0,
-        "explanation": "JSON stands for JavaScript Object Notation, a lightweight data interchange format."
+        "explanation": "JSON stands for JavaScript Object Notation. It is a lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate."
       },
       {
         "id": 89,
-        "question": "Which CSS unit is relative to the font size of the element?",
-        "options": ["px", "em", "pt", "in"],
-        "correct": 1,
-        "explanation": "The 'em' unit is relative to the font size of the element."
+        "question": "Which CSS unit is relative to the font size of the root element (<html>)?",
+        "options": ["px", "em", "rem", "pt"],
+        "correct": 2,
+        "explanation": "The 'rem' unit is relative to the font-size of the root (html) element. 'em' is relative to the font-size of its parent element."
       },
       {
         "id": 90,
         "question": "What is the CSS property used to create rounded corners?",
         "options": ["corner-radius", "border-radius", "round-corner", "border-round"],
         "correct": 1,
-        "explanation": "The 'border-radius' property is used to create rounded corners."
+        "explanation": "The 'border-radius' property in CSS is used to give elements rounded corners."
       },
       {
         "id": 91,
         "question": "Which JavaScript method converts a string to an integer?",
-        "options": ["parseInt()", "parseFloat()", "toInt()", "convert()"],
+        "options": ["parseInt()", "parseFloat()", "toInteger()", "Number.fromString()"],
         "correct": 0,
-        "explanation": "The parseInt() method converts a string to an integer."
+        "explanation": "The parseInt() function parses a string argument and returns an integer of the specified radix (the base in mathematical numeral systems)."
       },
       {
         "id": 92,
-        "question": "What is the CSS display property value that makes an element behave like a table?",
-        "options": ["table", "grid", "flex", "block"],
-        "correct": 0,
-        "explanation": "The 'table' value makes an element behave like a table element."
+        "question": "What is the CSS display property value that makes an element behave like an inline element but allows setting width and height?",
+        "options": ["inline", "block", "inline-block", "flex"],
+        "correct": 2,
+        "explanation": "`display: inline-block;` causes an element to generate a block box that will be flowed with surrounding content as if it were a single inline box."
       },
       {
         "id": 93,
         "question": "Which HTML5 element is used for navigation links?",
         "options": ["<nav>", "<navigation>", "<menu>", "<links>"],
         "correct": 0,
-        "explanation": "The <nav> element is used to define navigation links in HTML5."
+        "explanation": "The <nav> HTML5 element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents."
       },
       {
         "id": 94,
-        "question": "What is the JavaScript operator for strict inequality?",
+        "question": "What is the JavaScript operator for strict inequality (checks value and type)?",
         "options": ["!=", "!==", "<>", "=/="],
         "correct": 1,
-        "explanation": "The !== operator checks for strict inequality (value and type)."
+        "explanation": "The strict inequality operator (`!==`) checks whether its two operands are not equal, without performing type conversion."
       },
       {
         "id": 95,
-        "question": "Which CSS property is used to control the stacking order of elements?",
-        "options": ["z-index", "stack-order", "layer", "depth"],
+        "question": "Which CSS property is used to control the stacking order of positioned elements?",
+        "options": ["z-index", "stack-order", "layer-order", "element-depth"],
         "correct": 0,
-        "explanation": "The 'z-index' property controls the stacking order of positioned elements."
+        "explanation": "The 'z-index' property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order."
+      },
+      {
+        "id": 185,
+        "question": "What is the Document Object Model (DOM)?",
+        "options": ["A styling language for web pages", "A programming interface for HTML and XML documents", "A server-side scripting language", "A database for websites"],
+        "correct": 1,
+        "explanation": "The DOM is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content."
+      },
+      {
+        "id": 186,
+        "question": "How can you add a comment in a CSS file?",
+        "options": ["// This is a comment", "", "/* This is a comment */", "## This is a comment"],
+        "correct": 2,
+        "explanation": "Comments in CSS are enclosed in /* and */."
+      },
+      {
+        "id": 187,
+        "question": "What is the purpose of the JavaScript `map()` method for arrays?",
+        "options": ["To iterate over an array and modify each element in place", "To create a new array populated with the results of calling a provided function on every element in the calling array", "To check if at least one element in the array passes a test", "To filter out elements from an array based on a condition"],
+        "correct": 1,
+        "explanation": "The `map()` method creates a new array by calling a function for every array element. It does not change the original array."
+      },
+      {
+        "id": 188,
+        "question": "Which HTML attribute is used to define a tooltip for an element?",
+        "options": ["tooltip", "hint", "title", "description"],
+        "correct": 2,
+        "explanation": "The `title` attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element."
+      },
+      {
+        "id": 189,
+        "question": "In CSS Flexbox, which property aligns items along the main axis?",
+        "options": ["align-items", "justify-content", "flex-direction", "align-content"],
+        "correct": 1,
+        "explanation": "`justify-content` is used to align flex items along the main axis of the current line of the flex container."
+      },
+      {
+        "id": 190,
+        "question": "What does API stand for in web development?",
+        "options": ["Advanced Programming Interface", "Application Programming Interface", "Automated Program Interaction", "Application Protocol Interface"],
+        "correct": 1,
+        "explanation": "API stands for Application Programming Interface. It's a set of rules and protocols that allows different software applications to communicate with each other."
+      },
+      {
+        "id": 191,
+        "question": "Which of the following is used to handle asynchronous operations in JavaScript before Promises were widely adopted?",
+        "options": ["Callbacks", "Synchronous functions", "Direct execution", "Looping constructs"],
+        "correct": 0,
+        "explanation": "Callbacks were (and still are) a common way to handle asynchronous operations in JavaScript, where a function is passed as an argument to another function to be executed later."
+      },
+      {
+        "id": 192,
+        "question": "What is the CSS `box-sizing: border-box;` property used for?",
+        "options": ["To include padding and border in the element's total width and height", "To make the border part of the margin", "To exclude padding from the element's size", "To automatically size the box based on its content"],
+        "correct": 0,
+        "explanation": "With `box-sizing: border-box;`, the width and height properties include the content, padding, and border, but not the margin."
+      },
+      {
+        "id": 193,
+        "question": "Which HTML input type allows users to select a date?",
+        "options": ["<input type='datetime'>", "<input type='calendar'>", "<input type='date'>", "<input type='time'>"],
+        "correct": 2,
+        "explanation": "<input type='date'> provides a date picker interface for users to select a date."
+      },
+      {
+        "id": 194,
+        "question": "What is 'event delegation' in JavaScript?",
+        "options": ["Assigning multiple event handlers to a single event", "Attaching a single event listener to a parent element to manage events for its child elements", "Preventing event propagation", "Creating custom events"],
+        "correct": 1,
+        "explanation": "Event delegation involves using a single event listener on a parent element to handle events that occur on its descendants, leveraging event bubbling."
+      },
+      {
+        "id": 195,
+        "question": "Which CSS pseudo-class matches an element that is the first child of its parent?",
+        "options": [":first", ":child-first", ":first-of-type", ":first-child"],
+        "correct": 3,
+        "explanation": "The `:first-child` pseudo-class matches an element that is the first child of its parent element."
+      },
+      {
+        "id": 196,
+        "question": "How can you access the `localStorage` object in a browser?",
+        "options": ["browser.localStorage", "window.storage", "window.localStorage", "document.localStorage"],
+        "correct": 2,
+        "explanation": "The `localStorage` object is a property of the `window` object, so it can be accessed via `window.localStorage` or simply `localStorage` in the global scope."
+      },
+      {
+        "id": 197,
+        "question": "What is the purpose of the `Array.isArray()` method in JavaScript?",
+        "options": ["To convert an object to an array", "To check if a variable is an array", "To create a new array", "To sort an array"],
+        "correct": 1,
+        "explanation": "`Array.isArray()` determines whether the passed value is an Array."
+      },
+      {
+        "id": 198,
+        "question": "Which HTTP status code indicates a successful request?",
+        "options": ["404 Not Found", "500 Internal Server Error", "200 OK", "301 Moved Permanently"],
+        "correct": 2,
+        "explanation": "A 200 OK status code means that the request has succeeded."
+      },
+      {
+        "id": 199,
+        "question": "What is the difference between `innerHTML` and `textContent` in JavaScript DOM manipulation?",
+        "options": ["No difference, they are aliases", "`innerHTML` sets HTML content, `textContent` sets plain text content", "`textContent` is faster but less secure", "`innerHTML` can only read content, `textContent` can write"],
+        "correct": 1,
+        "explanation": "`innerHTML` parses and renders HTML tags, while `textContent` treats content as plain text, ignoring HTML tags. Using `textContent` is generally safer and often faster for setting text."
+      },
+      {
+        "id": 200,
+        "question": "In CSS Grid, what does `fr` unit represent?",
+        "options": ["A fixed pixel value", "A percentage of the parent container", "A fraction of the available space in the grid container", "A relative unit based on font size"],
+        "correct": 2,
+        "explanation": "The `fr` unit represents a fraction of the available space in the grid container after accounting for fixed-size tracks or content-based tracks."
+      },
+      {
+        "id": 201,
+        "question": "How do you select all `p` elements that are direct children of a `div` element in CSS?",
+        "options": ["div p", "div + p", "div > p", "div ~ p"],
+        "correct": 2,
+        "explanation": "The child combinator `>` selects only those elements that are direct children of the specified parent. So, `div > p` selects all `p` elements that are direct children of a `div`."
+      },
+      {
+        "id": 202,
+        "question": "What is the purpose of the `defer` attribute in a `<script>` tag?",
+        "options": ["To execute the script before the HTML is parsed", "To execute the script after the HTML is parsed, but before `DOMContentLoaded`", "To delay the script execution indefinitely", "To load the script asynchronously but execute it in order before `DOMContentLoaded`"],
+        "correct": 1,
+        "explanation": "The `defer` attribute tells the browser to download the script in parallel with parsing the HTML, and then execute it after the HTML parsing is complete, but before the `DOMContentLoaded` event."
+      },
+      {
+        "id": 203,
+        "question": "Which JavaScript method is used to join all elements of an array into a string?",
+        "options": ["concat()", "join()", "toString()", "combine()"],
+        "correct": 1,
+        "explanation": "The `join()` method creates and returns a new string by concatenating all of the elements in an array, separated by commas or a specified separator string."
+      },
+      {
+        "id": 204,
+        "question": "What is an 'Immediately Invoked Function Expression' (IIFE) in JavaScript?",
+        "options": ["A function that is called by another function immediately", "A function that is defined and executed immediately after its creation", "A function that is defined but never called", "A function that is executed on a timer"],
+        "correct": 1,
+        "explanation": "An IIFE is a JavaScript function that runs as soon as it is defined. It is a common pattern for creating a local scope and avoiding polluting the global namespace."
+      },
+      {
+        "id": 205,
+        "question": "Which CSS property allows you to specify the image to be used as the list item marker in an unordered list?",
+        "options": ["list-style-image", "list-marker-image", "marker-image", "list-style-type"],
+        "correct": 0,
+        "explanation": "The `list-style-image` property allows you to specify an image to be used as the list item marker."
+      },
+      {
+        "id": 206,
+        "question": "What does the `this` keyword refer to in a JavaScript function when called in the global scope (not in strict mode)?",
+        "options": ["The function itself", "The `window` object (in browsers)", "null", "undefined"],
+        "correct": 1,
+        "explanation": "In the global execution context (outside of any function) and when a function is called without a specific context in non-strict mode, `this` refers to the global object, which is `window` in web browsers."
+      },
+      {
+        "id": 207,
+        "question": "What is the purpose of the HTML `<meta name=\"viewport\" ...>` tag?",
+        "options": ["To define the version of HTML being used", "To set the character encoding of the document", "To control the layout on mobile browsers by setting the viewport width and initial scale", "To provide keywords for search engines"],
+        "correct": 2,
+        "explanation": "The viewport meta tag controls how a webpage is displayed on mobile devices. `width=device-width, initial-scale=1.0` is a common setting for responsive design."
+      },
+      {
+        "id": 208,
+        "question": "Which JavaScript built-in object can be used to work with dates and times?",
+        "options": ["Time", "DateTime", "Date", "Calendar"],
+        "correct": 2,
+        "explanation": "The `Date` object in JavaScript is used to work with dates and times."
+      },
+      {
+        "id": 209,
+        "question": "In CSS, what is the difference between `visibility: hidden;` and `display: none;`?",
+        "options": ["No difference, they do the same thing", "`visibility: hidden;` hides the element but it still takes up space, `display: none;` removes it from the layout", "`display: none;` hides the element but it still takes up space, `visibility: hidden;` removes it", "`visibility: hidden;` makes text invisible, `display: none;` hides the entire element"],
+        "correct": 1,
+        "explanation": "`visibility: hidden;` makes the element invisible, but it still occupies space in the layout. `display: none;` removes the element entirely from the document flow, and it takes up no space."
+      },
+      {
+        "id": 210,
+        "question": "Which JavaScript method can be used to schedule a function to run after a certain amount of time?",
+        "options": ["setInterval()", "runAfter()", "setTimeout()", "delay()"],
+        "correct": 2,
+        "explanation": "`setTimeout()` is used to execute a function or evaluate an expression after a specified number of milliseconds."
+      },
+      {
+        "id": 211,
+        "question": "What does the `Array.prototype.filter()` method do?",
+        "options": ["Modifies the original array by removing elements", "Creates a new array with all elements that pass the test implemented by the provided function", "Returns the first element that satisfies the provided testing function", "Sorts the elements of an array"],
+        "correct": 1,
+        "explanation": "The `filter()` method creates a new array with all elements that pass the test implemented by the provided callback function. It does not modify the original array."
+      },
+      {
+        "id": 212,
+        "question": "Which HTML attribute is used to make an input field read-only?",
+        "options": ["disabled", "readonly", "fixed", "locked"],
+        "correct": 1,
+        "explanation": "The `readonly` attribute specifies that an input field is read-only. Users can still tab to it and copy its content, but cannot change it. `disabled` fields cannot be interacted with or submitted."
+      },
+      {
+        "id": 213,
+        "question": "What is the purpose of `JSON.stringify()` in JavaScript?",
+        "options": ["To parse a JSON string into a JavaScript object", "To convert a JavaScript object or value to a JSON string", "To validate a JSON structure", "To create a deep copy of an object"],
+        "correct": 1,
+        "explanation": "`JSON.stringify()` converts a JavaScript object or value to a JSON string, optionally replacing values if a replacer function is specified or optionally including only the specified properties if a replacer array is specified."
+      },
+      {
+        "id": 214,
+        "question": "Which CSS selector has the highest specificity?",
+        "options": ["Type selector (e.g., `p`)", "Class selector (e.g., `.myClass`)", "ID selector (e.g., `#myId`)", "Universal selector (e.g., `*`)"],
+        "correct": 2,
+        "explanation": "ID selectors have higher specificity than class selectors, which in turn have higher specificity than type selectors. Inline styles have the highest specificity, followed by ID selectors."
+      },
+      {
+        "id": 215,
+        "question": "What is the primary use of the JavaScript `forEach` method on an array?",
+        "options": ["To create a new array based on the original", "To execute a provided function once for each array element", "To check if any element meets a condition", "To reduce the array to a single value"],
+        "correct": 1,
+        "explanation": "The `forEach()` method executes a provided callback function once for each element in an array in ascending order. It does not return a new array."
+      },
+      {
+        "id": 216,
+        "question": "Which CSS feature allows you to define reusable style rules that can be applied to elements?",
+        "options": ["Variables", "Classes", "Mixins (in preprocessors)", "Functions"],
+        "correct": 1,
+        "explanation": "CSS classes are used to define a set of style rules that can then be applied to multiple HTML elements by adding the class name to their `class` attribute."
+      },
+      {
+        "id": 217,
+        "question": "What is the 'Same-Origin Policy' in web security?",
+        "options": ["A policy that allows scripts from any origin to interact freely", "A security measure that restricts how a document or script loaded from one origin can interact with a resource from another origin", "A rule for organizing files in a web project", "A guideline for using similar color schemes across a website"],
+        "correct": 1,
+        "explanation": "The Same-Origin Policy is a critical security mechanism that restricts how a document or script loaded from one 'origin' (defined by protocol, hostname, and port) can interact with a resource from another origin."
+      },
+      {
+        "id": 218,
+        "question": "Which HTML tag is used to create a hyperlink that opens the user's email client?",
+        "options": ["<a href='email:user@example.com'>", "<a href='mailto:user@example.com'>", "<mail to='user@example.com'>", "<email>user@example.com</email>"],
+        "correct": 1,
+        "explanation": "Using `mailto:` within the `href` attribute of an anchor tag creates a hyperlink that will attempt to open the user's default email client with the specified address."
+      },
+      {
+        "id": 219,
+        "question": "In JavaScript, what is the result of `0.1 + 0.2 === 0.3`?",
+        "options": ["true", "false", "NaN", "undefined"],
+        "correct": 1,
+        "explanation": "Due to floating-point precision issues in binary representation, `0.1 + 0.2` results in a number like `0.30000000000000004`, so it is not strictly equal to `0.3`. This is a common gotcha in JavaScript."
+      },
+      {
+        "id": 220,
+        "question": "Which CSS layout module is designed for laying out items in one dimension (either a row or a column)?",
+        "options": ["Grid", "Table", "Flexbox", "Float"],
+        "correct": 2,
+        "explanation": "CSS Flexbox (Flexible Box Layout) is a one-dimensional layout model designed for arranging items in rows or columns."
+      },
+      {
+        "id": 221,
+        "question": "What does the `aria-label` attribute in HTML provide?",
+        "options": ["A label for form inputs that is always visible", "A string value that labels the current element, used when a visible text label is not present", "A reference to another element that serves as its label", "A short hint for the element's purpose"],
+        "correct": 1,
+        "explanation": "`aria-label` defines a string value that labels an interactive element. It is used when a visible text label is not present on the screen, providing an accessible name for screen readers."
+      },
+      {
+        "id": 222,
+        "question": "Which of the following is NOT a valid JavaScript loop?",
+        "options": ["for loop", "while loop", "do...while loop", "repeat loop"],
+        "correct": 3,
+        "explanation": "JavaScript includes `for`, `while`, `do...while`, `for...in`, and `for...of` loops. A `repeat` loop is not a standard JavaScript looping construct."
+      },
+      {
+        "id": 223,
+        "question": "What is the purpose of the CSS `!important` rule?",
+        "options": ["To mark a style as less important", "To override any other style declarations for that property on that element", "To comment out a style rule", "To apply the style only to important elements"],
+        "correct": 1,
+        "explanation": "The `!important` rule is used to add more importance to a property/value than normal. It will override ALL previous styling rules for that specific property on that element."
+      },
+      {
+        "id": 224,
+        "question": "Which method in JavaScript can be used to convert a JSON string into a JavaScript object?",
+        "options": ["JSON.toObject()", "JSON.parse()", "JSON.convert()", "JSON.fromString()"],
+        "correct": 1,
+        "explanation": "`JSON.parse()` is used to parse a JSON string, constructing the JavaScript value or object described by the string."
+      },
+      {
+        "id": 225,
+        "question": "What is the difference between `padding` and `margin` in the CSS box model?",
+        "options": ["Padding is outside the border, margin is inside", "Margin is outside the border, padding is inside between the border and content", "They are the same thing", "Padding is for text, margin is for images"],
+        "correct": 1,
+        "explanation": "Padding is the space between the element's content and its border. Margin is the space outside the element's border, creating separation from other elements."
+      },
+      {
+        "id": 226,
+        "question": "What is the role of `e.preventDefault()` in JavaScript event handling?",
+        "options": ["To stop the event from bubbling up the DOM tree", "To prevent the browser's default action for that event", "To trigger the event programmatically", "To delegate the event to a parent element"],
+        "correct": 1,
+        "explanation": "`event.preventDefault()` is called on an event object to tell the user agent that if the event goes unhandled, its default action should not be taken as it normally would be (e.g., preventing a form submission or a link navigation)."
+      },
+      {
+        "id": 227,
+        "question": "Which CSS property is used to change the style of the mouse cursor when it hovers over an element?",
+        "options": ["mouse-style", "hover-cursor", "pointer-style", "cursor"],
+        "correct": 3,
+        "explanation": "The `cursor` CSS property sets the mouse cursor to show when the mouse pointer is over an element (e.g., `pointer`, `text`, `wait`)."
+      },
+      {
+        "id": 228,
+        "question": "What is an HTTP cookie?",
+        "options": ["A small piece of data sent from a website and stored on the user's computer by the web browser", "A type of JavaScript function for tracking user behavior", "A server-side script for managing sessions", "A security token for API authentication"],
+        "correct": 0,
+        "explanation": "An HTTP cookie is a small piece of data that a server sends to the user's web browser. The browser may store it and send it back with later requests to the same server, allowing the server to remember information about the user."
+      },
+      {
+        "id": 229,
+        "question": "Which HTML5 element is used to embed audio content?",
+        "options": ["<sound>", "<music>", "<audio>", "<bgsound>"],
+        "correct": 2,
+        "explanation": "The `<audio>` HTML5 element is used to embed sound content in documents. It may contain one or more audio sources, represented using the `src` attribute or the `<source>` element."
+      },
+      {
+        "id": 230,
+        "question": "What is the concept of 'CSS Specificity'?",
+        "options": ["How specific a CSS file path is", "The set of rules browsers use to determine which CSS style declaration is applied to an element when multiple declarations could apply", "A measure of how fast CSS styles are applied", "A technique for making CSS styles more general"],
+        "correct": 1,
+        "explanation": "CSS Specificity is an algorithm used by browsers to determine which CSS property values are the most relevant to an element and, therefore, should be applied. Specificity is based on the makeup of different types of CSS selectors."
+      },
+      {
+        "id": 231,
+        "question": "Which JavaScript operator is used to check both the value and the type of a variable?",
+        "options": ["==", "===", "=", "!="],
+        "correct": 1,
+        "explanation": "The strict equality operator (`===`) checks whether its two operands are equal, returning a Boolean result. Unlike the equality operator (`==`), the strict equality operator always considers operands of different types to be different."
+      },
+      {
+        "id": 232,
+        "question": "What does the `Array.prototype.reduce()` method do in JavaScript?",
+        "options": ["Reduces the number of elements in an array by filtering them", "Executes a reducer function on each element of the array, resulting in a single output value", "Reverses the order of elements in an array", "Checks if all elements in an array satisfy a condition"],
+        "correct": 1,
+        "explanation": "The `reduce()` method executes a user-supplied “reducer” callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element. The final result of running the reducer across all elements of the array is a single value."
+      },
+      {
+        "id": 233,
+        "question": "Which CSS property is used to create an outline around an element, outside the border?",
+        "options": ["border-outline", "outer-border", "shadow", "outline"],
+        "correct": 3,
+        "explanation": "The `outline` property is used to draw a line around elements, outside the border edge. It is often used for accessibility to highlight focused elements."
+      },
+      {
+        "id": 234,
+        "question": "What is a 'constructor' function in JavaScript?",
+        "options": ["A function used to construct HTML elements dynamically", "A special function for creating and initializing objects created with a class or constructor", "A function that validates user input in forms", "A built-in JavaScript function for mathematical calculations"],
+        "correct": 1,
+        "explanation": "A constructor is a special function that creates and initializes an object instance of a class or a constructor function. In JavaScript, constructors are typically invoked using the `new` keyword."
+      },
+      {
+        "id": 235,
+        "question": "Which of these is a way to select an HTML element using JavaScript, excluding `document.getElementById`?",
+        "options": ["document.getElementsByClassName()", "document.getElementsByTagName()", "document.querySelector()", "All of the above"],
+        "correct": 3,
+        "explanation": "All listed methods are valid ways to select HTML elements: `getElementsByClassName` (returns a collection), `getElementsByTagName` (returns a collection), and `querySelector` (returns the first matching element using a CSS selector)."
+      },
+      {
+        "id": 236,
+        "question": "What is the CSS `position: relative;` used for?",
+        "options": ["To position an element relative to the browser window", "To position an element relative to its normal position in the document flow", "To remove an element completely from the document flow", "To make an element always stay at the top of the page"],
+        "correct": 1,
+        "explanation": "An element with `position: relative;` is positioned relative to its normal position. Setting the `top`, `right`, `bottom`, and `left` properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element."
+      },
+      {
+        "id": 237,
+        "question": "What is the `Error` object in JavaScript used for?",
+        "options": ["To automatically fix errors in code", "To represent runtime errors and allow for error handling (e.g., with try...catch)", "To log errors to the browser's console only", "To define custom HTML error pages"],
+        "correct": 1,
+        "explanation": "The `Error` object is a built-in object that provides error information when an error occurs. Instances of `Error` objects are thrown when runtime errors occur, and can be used as a base for user-defined exceptions."
+      },
+      {
+        "id": 238,
+        "question": "Which CSS value for the `overflow` property will add scrollbars only when the content overflows the element's box?",
+        "options": ["visible", "hidden", "scroll", "auto"],
+        "correct": 3,
+        "explanation": "`overflow: auto;` will add scrollbars (horizontal, vertical, or both) only if the content is larger than the element's content box. `scroll` will always show scrollbars."
+      },
+      {
+        "id": 239,
+        "question": "What is the purpose of the `typeof` operator in JavaScript?",
+        "options": ["To define a new data type", "To return a string indicating the type of an unevaluated operand", "To convert a value to a specific type", "To check if a variable is defined"],
+        "correct": 1,
+        "explanation": "The `typeof` operator returns a string indicating the type of the unevaluated operand (e.g., 'number', 'string', 'boolean', 'object', 'function', 'undefined')."
+      },
+      {
+        "id": 240,
+        "question": "Which CSS property is used to apply a gradient background?",
+        "options": ["background-color", "background-gradient", "gradient", "background-image"],
+        "correct": 3,
+        "explanation": "CSS gradients (linear-gradient, radial-gradient, etc.) are treated as images and are applied using the `background-image` property (or the shorthand `background` property)."
+      },
+      {
+        "id": 241,
+        "question": "What is the difference between `undefined` and `not defined` in JavaScript?",
+        "options": ["They are the same", "`undefined` means a variable has been declared but not assigned a value, `not defined` means the variable doesn't exist in the current scope", "`not defined` means a variable is null, `undefined` means it has no type", "`undefined` is an error, `not defined` is a value"],
+        "correct": 1,
+        "explanation": "`undefined` is a primitive value automatically assigned to variables that have just been declared or to function arguments for which there are no actual arguments. Accessing a variable that has not been declared at all results in a `ReferenceError: variable is not defined`."
+      },
+      {
+        "id": 242,
+        "question": "Which HTML tag is used to define a `figcaption` for a `<figure>` element?",
+        "options": ["<caption>", "<figtext>", "<legend>", "<figcaption>"],
+        "correct": 3,
+        "explanation": "The `<figcaption>` element represents a caption or legend describing the rest of the contents of its parent `<figure>` element."
+      },
+      {
+        "id": 243,
+        "question": "What is the primary purpose of web accessibility (a11y)?",
+        "options": ["To make websites load faster", "To make websites look good on all devices", "To ensure websites are usable by people with disabilities", "To improve search engine ranking"],
+        "correct": 2,
+        "explanation": "Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them. This includes auditory, cognitive, neurological, physical, speech, and visual disabilities."
+      },
+      {
+        "id": 244,
+        "question": "Which method is used to add one or more elements to the beginning of an array and returns the new length?",
+        "options": ["push()", "prepend()", "shift()", "unshift()"],
+        "correct": 3,
+        "explanation": "The `unshift()` method adds one or more elements to the beginning of an array and returns the new length of the array."
+      },
+      {
+        "id": 245,
+        "question": "In CSS, what does the `*` selector select?",
+        "options": ["The first element", "All elements", "Elements with a specific class", "Elements with a specific ID"],
+        "correct": 1,
+        "explanation": "The universal selector `*` selects all HTML elements on the page."
+      },
+      {
+        "id": 246,
+        "question": "What does the term 'CDN' stand for in web development?",
+        "options": ["Content Delivery Network", "Cascading Data Network", "Client Data Negotiation", "Content Distribution Node"],
+        "correct": 0,
+        "explanation": "CDN stands for Content Delivery Network. It's a geographically distributed network of proxy servers and their data centers, which provide high availability and performance by distributing the service spatially relative to end users."
+      },
+      {
+        "id": 247,
+        "question": "Which JavaScript statement is used to execute different actions based on different conditions?",
+        "options": ["if...else", "switch", "for loop", "Both A and B"],
+        "correct": 3,
+        "explanation": "Both `if...else if...else` statements and `switch` statements are used in JavaScript to perform different actions based on different conditions."
+      },
+      {
+        "id": 248,
+        "question": "What is the `target` attribute of an HTML form used for?",
+        "options": ["To specify where to display the response after submitting the form", "To set the target audience for the form", "To define the form's action URL", "To validate the form input fields"],
+        "correct": 0,
+        "explanation": "The `target` attribute specifies where to display the response that is received after submitting the form (e.g., `_self`, `_blank`, `_parent`, `_top`, or a framename)."
+      },
+      {
+        "id": 249,
+        "question": "What is the result of the JavaScript expression `\"5\" + 2`?",
+        "options": ["7", "\"52\"", "3", "Error"],
+        "correct": 1,
+        "explanation": "In JavaScript, when the `+` operator is used with a string and a number, the number is converted to a string, and then string concatenation is performed. So, `\"5\" + 2` results in the string `\"52\"`."
+      },
+      {
+        "id": 250,
+        "question": "Which CSS `display` property value makes an element not displayed at all, and it takes up no space?",
+        "options": ["inline", "block", "none", "hidden"],
+        "correct": 2,
+        "explanation": "`display: none;` removes the element completely from the document layout. It will not be visible and will not occupy any space."
+      },
+      {
+        "id": 251,
+        "question": "How do you create an object literal in JavaScript?",
+        "options": ["`new Object()`", "`{}`", "`Object.create()`", "All of the above"],
+        "correct": 3,
+        "explanation": "An object literal is created using curly braces `{}`. `new Object()` and `Object.create()` are other ways to create objects, but `{}` is the literal notation."
+      },
+      {
+        "id": 252,
+        "question": "What is the purpose of the `rel=\"noopener\"` attribute on an anchor tag?",
+        "options": ["To prevent the linked page from opening", "To improve security when opening links in a new tab by preventing the new page from accessing `window.opener`", "To ensure the link opens in the same tab", "To indicate the link is not related to the current page content"],
+        "correct": 1,
+        "explanation": "`rel=\"noopener\"` is a security feature for links that open in a new tab (`target=\"_blank\"`). It prevents the new page from being able to access the `window.opener` property and ensures it runs in a separate process."
+      },
+      {
+        "id": 253,
+        "question": "Which CSS property is used to set the background image of an element?",
+        "options": ["img-background", "background-src", "background-image", "image-url"],
+        "correct": 2,
+        "explanation": "The `background-image` property sets one or more background images for an element, typically using `url()`."
+      },
+      {
+        "id": 254,
+        "question": "What is the difference between `null` and `0` in JavaScript?",
+        "options": ["They are strictly equal (`===`)", "`null` is an object, `0` is a number", "`null` represents the intentional absence of a value, `0` is a numeric value", "`0` is falsey, `null` is truthy"],
+        "correct": 2,
+        "explanation": "`null` is a primitive value representing the intentional absence of any object value. `0` is a numeric value. While both are falsey, they are distinct types and values."
+      },
+      {
+        "id": 255,
+        "question": "Which JavaScript array method sorts the elements of an array in place?",
+        "options": ["order()", "arrange()", "sort()", "organize()"],
+        "correct": 2,
+        "explanation": "The `sort()` method sorts the elements of an array in place and returns the sorted array. The default sort order is built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values."
+      },
+      {
+        "id": 256,
+        "question": "What is the purpose of the `alt` attribute for an `<img>` tag in terms of SEO?",
+        "options": ["It directly improves page loading speed", "It provides keywords that search engines can use to understand the image content", "It defines the image's visual style for search engine bots", "It has no impact on SEO"],
+        "correct": 1,
+        "explanation": "Alternative text provides context to search engine crawlers, helping them index an image properly and understand the content of the page, which can improve SEO."
+      },
+      {
+        "id": 257,
+        "question": "Which CSS value for `text-decoration` removes any decorations (like underline)?",
+        "options": ["none", "remove", "clear", "normal"],
+        "correct": 0,
+        "explanation": "`text-decoration: none;` is used to remove underlines, overlines, or line-throughs from text, often applied to links to remove the default underline."
+      },
+      {
+        "id": 258,
+        "question": "What is the `Window.confirm()` method in JavaScript used for?",
+        "options": ["To display a message and an input field for the user", "To display a dialog with an optional message and two buttons, OK and Cancel", "To validate user confirmation for form submission", "To print a confirmation message to the console"],
+        "correct": 1,
+        "explanation": "`window.confirm()` displays a modal dialog with an optional message and two buttons: OK and Cancel. It returns `true` if OK is clicked and `false` if Cancel is clicked."
+      },
+      {
+        "id": 259,
+        "question": "Which HTML element is used to embed another HTML page within the current page?",
+        "options": ["<embed>", "<frame>", "<iframe>", "<include>"],
+        "correct": 2,
+        "explanation": "The `<iframe>` (Inline Frame) element is used to embed another HTML document within the current HTML document."
+      },
+      {
+        "id": 260,
+        "question": "What does `event.stopPropagation()` do in JavaScript event handling?",
+        "options": ["Prevents the default action of the event", "Stops the event from propagating further up or down the DOM tree (capturing/bubbling)", "Triggers the event on all parent elements", "Delays the event handling"],
+        "correct": 1,
+        "explanation": "`event.stopPropagation()` prevents further propagation of the current event in the capturing and bubbling phases. It does not prevent any default_action an element may have for that event."
+      },
+      {
+        "id": 261,
+        "question": "Which CSS property is used to control the flow of text around a floated element?",
+        "options": ["wrap", "flow", "clear", "text-flow"],
+        "correct": 2,
+        "explanation": "The `clear` property specifies whether an element can be next to floating elements that precede it or must be moved down (cleared) below them. It's used to control the layout flow around floated elements."
+      },
+      {
+        "id": 262,
+        "question": "What is the JavaScript `Math.random()` function used for?",
+        "options": ["To generate a random integer within a specified range", "To generate a floating-point, pseudo-random number in the range 0 (inclusive) up to but not including 1 (exclusive)", "To round a number to the nearest integer", "To find the maximum of a list of numbers"],
+        "correct": 1,
+        "explanation": "`Math.random()` returns a floating-point, pseudo-random number between 0 (inclusive) and 1 (exclusive)."
+      },
+      {
+        "id": 263,
+        "question": "Which of the following is a block-level HTML element by default?",
+        "options": ["<span>", "<a>", "<img>", "<p>"],
+        "correct": 3,
+        "explanation": "Paragraph elements (`<p>`) are block-level elements by default. `<span>`, `<a>`, and `<img>` are inline-level elements by default."
+      },
+      {
+        "id": 264,
+        "question": "What is the purpose of the `try...catch` statement in JavaScript?",
+        "options": ["To define a block of code that will be executed multiple times", "To test a block of code for errors and handle any errors that occur", "To conditionally execute code based on a boolean expression", "To declare variables that are only accessible within a specific block"],
+        "correct": 1,
+        "explanation": "The `try...catch` statement marks a block of statements to try, and specifies a response should an exception be thrown. It's used for error handling."
       }
     ],
     "hard": [
       {
         "id": 26,
         "question": "What is a closure in JavaScript?",
-        "options": ["A way to close browser windows", "A function with access to outer scope", "A method to end loops", "A type of array"],
+        "options": ["A way to close browser windows", "A function bundled with references to its surrounding state (lexical environment)", "A method to end loops forcefully", "A type of array with fixed size"],
         "correct": 1,
-        "explanation": "A closure is a function that has access to variables in its outer (enclosing) scope even after the outer function has finished executing. It 'closes over' these variables."
+        "explanation": "A closure is the combination of a function and the lexical environment within which that function was declared. This means the inner function has access to the variables of its outer function, even after the outer function has returned."
       },
       {
         "id": 27,
-        "question": "What is the difference between '==' and '===' in JavaScript?",
-        "options": ["No difference", "=== checks type and value", "== is faster", "=== is deprecated"],
+        "question": "What is the difference between '==' (loose equality) and '===' (strict equality) in JavaScript?",
+        "options": ["No difference, they are interchangeable", "=== checks for value equality and type equality, while == performs type coercion before checking value equality", "== is faster and more commonly used", "=== is deprecated in modern JavaScript"],
         "correct": 1,
-        "explanation": "The === operator checks for strict equality (both value and type must match), while == performs type coercion before comparison."
+        "explanation": "The strict equality operator (===) checks if two operands are equal, returning a Boolean. Unlike the abstract equality operator (==), the strict equality operator always considers operands of different types to be different, without performing type coercion."
       },
       {
         "id": 28,
-        "question": "What is event bubbling in JavaScript?",
-        "options": ["Creating new events", "Events propagating up the DOM tree", "Delaying event execution", "Combining multiple events"],
+        "question": "What is event bubbling in the JavaScript DOM?",
+        "options": ["A method to create custom events", "The process where an event triggered on a nested element propagates up through its ancestors in the DOM tree", "A performance issue where too many events are triggered at once", "The phase where an event travels down the DOM tree to the target element"],
         "correct": 1,
-        "explanation": "Event bubbling is when an event starts from the target element and propagates up through its parent elements in the DOM tree."
+        "explanation": "Event bubbling is a phase of event propagation where an event triggered on an element will first run its own handlers, then its parent's handlers, then its parent's parent's handlers, and so on, up the DOM tree until it reaches the root element."
       },
       {
         "id": 29,
-        "question": "What is the purpose of 'use strict' in JavaScript?",
-        "options": ["Makes code run faster", "Enforces stricter parsing and error handling", "Enables new features", "Compresses code"],
+        "question": "What is the primary purpose of 'use strict' at the beginning of a JavaScript file or function?",
+        "options": ["To make the JavaScript code run significantly faster", "To opt in to a restricted variant of JavaScript, enforcing stricter parsing and error handling", "To enable experimental JavaScript features automatically", "To tell the browser to use a specific JavaScript engine version"],
         "correct": 1,
-        "explanation": "'use strict' enables strict mode, which enforces stricter parsing and error handling in JavaScript code."
+        "explanation": "'use strict' is a directive that enables strict mode. Strict mode makes several changes to normal JavaScript semantics, such as eliminating some silent errors by changing them to throw errors, and fixing mistakes that make it difficult for JavaScript engines to perform optimizations."
       },
       {
         "id": 30,
         "question": "What is a Promise in JavaScript?",
-        "options": ["A guarantee that code will work", "An object representing eventual completion of an async operation", "A type of variable", "A loop structure"],
+        "options": ["A guarantee that a function will execute without errors", "An object representing the eventual completion (or failure) of an asynchronous operation and its resulting value", "A syntax for declaring variables that will hold future values", "A built-in JavaScript function for making synchronous HTTP requests"],
         "correct": 1,
-        "explanation": "A Promise is an object that represents the eventual completion (or failure) of an asynchronous operation and its resulting value."
+        "explanation": "A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason."
       },
       {
         "id": 96,
-        "question": "What is the CSS Grid property used to define columns?",
-        "options": ["grid-columns", "grid-template-columns", "grid-column-template", "column-grid"],
+        "question": "What is the CSS Grid property `grid-template-areas` used for?",
+        "options": ["To define the size of grid columns and rows", "To name grid areas and define the layout structure by referencing these names", "To automatically place grid items into available areas", "To control the spacing between grid areas"],
         "correct": 1,
-        "explanation": "The 'grid-template-columns' property defines the columns in a CSS Grid."
+        "explanation": "The `grid-template-areas` property specifies named grid areas, establishing a visual layout for the grid container by referencing the names of the grid areas which are specified with the `grid-area` property on grid items."
       },
       {
         "id": 97,
-        "question": "What is hoisting in JavaScript?",
-        "options": ["Moving code to the top", "Variable and function declarations moved to top of scope", "Lifting heavy objects", "Optimizing performance"],
+        "question": "What is hoisting in JavaScript and how does it affect `var`, `let`, and `const` declarations?",
+        "options": ["Only `var` declarations are hoisted; `let` and `const` are not.", "`var` declarations are hoisted and initialized with `undefined`. `let` and `const` are hoisted but not initialized, leading to a Temporal Dead Zone.", "All three are hoisted and initialized with `undefined`.", "Hoisting only applies to function declarations, not variables."],
         "correct": 1,
-        "explanation": "Hoisting is JavaScript's behavior of moving variable and function declarations to the top of their scope."
+        "explanation": "JavaScript hoists declarations. `var` declarations are hoisted to the top of their scope and initialized with `undefined`. `let` and `const` declarations are also hoisted, but they are not initialized. Accessing a `let` or `const` variable before its declaration results in a `ReferenceError` because it's in a 'temporal dead zone'."
       },
       {
         "id": 98,
-        "question": "What is the purpose of the async/await keywords in JavaScript?",
-        "options": ["To make code run faster", "To handle asynchronous operations", "To create animations", "To validate data"],
+        "question": "What is the main benefit of using `async/await` keywords in JavaScript for asynchronous operations?",
+        "options": ["They make asynchronous code execute synchronously, blocking the main thread.", "They allow asynchronous, promise-based code to be written in a cleaner, more synchronous-looking style, improving readability.", "They automatically handle all possible errors in asynchronous code.", "They are a replacement for Promises and offer better performance."],
         "correct": 1,
-        "explanation": "async/await keywords are used to handle asynchronous operations in a more readable way."
+        "explanation": "`async/await` provides syntactic sugar on top of Promises, making asynchronous code easier to write and read by allowing it to be structured as if it were synchronous, without blocking the main thread."
       },
       {
         "id": 99,
-        "question": "What is CSS flexbox used for?",
-        "options": ["Creating animations", "Layout and alignment of elements", "Styling text", "Creating gradients"],
+        "question": "What is the primary difference between CSS Flexbox and CSS Grid layout models?",
+        "options": ["Flexbox is for 2D layouts, Grid is for 1D layouts.", "Flexbox is designed for layout in one dimension (either a row or a column), while Grid is designed for two-dimensional layout (rows and columns simultaneously).", "Flexbox is older and deprecated; Grid is the modern standard.", "Grid can only be used for page-level layouts, Flexbox for component-level layouts."],
         "correct": 1,
-        "explanation": "CSS Flexbox is used for layout and alignment of elements in a flexible way."
+        "explanation": "Flexbox excels at distributing space and aligning items in a single dimension (a row or a column). CSS Grid is more powerful for creating complex two-dimensional layouts that involve both rows and columns simultaneously."
       },
       {
         "id": 100,
-        "question": "What is the difference between null and undefined in JavaScript?",
-        "options": ["No difference", "null is assigned, undefined is not initialized", "undefined is faster", "null is deprecated"],
+        "question": "Explain the difference between `null` and `undefined` in JavaScript.",
+        "options": ["There is no practical difference; they can be used interchangeably.", "`undefined` means a variable has been declared but not yet assigned a value. `null` is an assignment value, representing the intentional absence of any object value.", "`null` is an error state, while `undefined` is a valid placeholder.", "`undefined` is for objects, `null` is for primitive types."],
         "correct": 1,
-        "explanation": "'null' is an assigned value representing no value, while 'undefined' means a variable has been declared but not assigned."
-      }
-    ]
-  },
-  "dispatch": {
-    "easy": [
-      {
-        "id": 31,
-        "question": "What does ETA stand for in logistics?",
-        "options": ["Estimated Time of Arrival", "Expected Transport Allocation", "Emergency Transport Alert", "Efficient Traffic Analysis"],
-        "correct": 0,
-        "explanation": "ETA stands for Estimated Time of Arrival. It represents the expected time when a shipment, vehicle, or person will arrive at a destination."
+        "explanation": "`undefined` typically means a variable has been declared, but has not yet been assigned a value. `null` is an explicit assignment value that means 'no value' or 'empty'. `typeof undefined` is 'undefined', while `typeof null` is 'object' (a historical quirk)."
       },
       {
-        "id": 32,
-        "question": "Which is the most common method of freight transportation?",
-        "options": ["Air", "Rail", "Road", "Sea"],
+        "id": 265,
+        "question": "What is the 'event loop' in JavaScript and how does it relate to asynchronous operations?",
+        "options": ["A loop that iterates through all event listeners on a page", "A mechanism that allows JavaScript to perform non-blocking operations by offloading tasks and processing their results when the call stack is empty", "A security feature that loops through code to detect vulnerabilities", "A way to create infinite loops for animations"],
+        "correct": 1,
+        "explanation": "The event loop is a fundamental part of JavaScript's concurrency model. It constantly checks the message queue for tasks (like callbacks from asynchronous operations such as `setTimeout`, I/O events, or Promises) and pushes them onto the call stack for execution when the stack is empty, enabling non-blocking behavior."
+      },
+      {
+        "id": 266,
+        "question": "Describe the concept of 'memoization' in the context of web development and its benefits.",
+        "options": ["A technique for encrypting sensitive data in memory", "An optimization technique where the results of expensive function calls are cached and returned if the same inputs occur again, improving performance", "A method for managing browser memory leaks", "A way to store user preferences locally"],
+        "correct": 1,
+        "explanation": "Memoization is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again. This avoids redundant computations."
+      },
+      {
+        "id": 267,
+        "question": "What are Service Workers and what is their primary purpose in Progressive Web Apps (PWAs)?",
+        "options": ["Server-side scripts that handle API requests", "JavaScript scripts that run in the background, separate from a web page, enabling features like push notifications and offline capabilities", "UI components specifically designed for service-based applications", "Security protocols for ensuring data integrity in web services"],
+        "correct": 1,
+        "explanation": "Service Workers are scripts that your browser runs in the background, separate from a web page, opening the door to features that don't need a web page or user interaction. Key features include offline support (caching assets), push notifications, and background syncs, which are crucial for PWAs."
+      },
+      {
+        "id": 268,
+        "question": "What is the difference between `localStorage` and `sessionStorage` in web browsers?",
+        "options": ["`localStorage` is faster but less secure than `sessionStorage`", "`localStorage` data persists until explicitly deleted, while `sessionStorage` data is cleared when the page session ends (browser tab is closed)", "`sessionStorage` can store more data than `localStorage`", "`localStorage` is for server-side storage, `sessionStorage` for client-side"],
+        "correct": 1,
+        "explanation": "`localStorage` stores data with no expiration date, and it will be available even when the browser is closed and reopened. `sessionStorage` stores data for only one session (i.e., the data is deleted when the browser tab is closed)."
+      },
+      {
+        "id": 269,
+        "question": "What is tree shaking in the context of JavaScript module bundlers like Webpack or Rollup?",
+        "options": ["A debugging technique to visualize the dependency tree", "A dead code elimination process that removes unused exports from the final bundle, reducing its size", "A method for dynamically loading JavaScript modules at runtime", "A way to organize JavaScript files into a tree-like structure"],
+        "correct": 1,
+        "explanation": "Tree shaking is a term commonly used in the JavaScript context for dead-code elimination. It relies on static ES2015 module structure (`import` and `export`) to remove unused exports, thereby reducing the size of the final application bundle."
+      },
+      {
+        "id": 270,
+        "question": "Explain the concept of 'CORS' (Cross-Origin Resource Sharing) and why it's important.",
+        "options": ["A styling framework for creating responsive UIs", "A security mechanism that allows or restricts resources on a web page to be requested from another domain outside the domain from which the first resource was served", "A compression algorithm for web assets", "A JavaScript library for managing cross-browser compatibility issues"],
+        "correct": 1,
+        "explanation": "CORS (Cross-Origin Resource Sharing) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. It's a security feature that relaxes the same-origin policy under controlled conditions."
+      },
+      {
+        "id": 271,
+        "question": "What are WebSockets and how do they differ from traditional HTTP requests?",
+        "options": ["WebSockets are a faster version of HTTP for static content delivery", "WebSockets provide a persistent, bidirectional communication channel between a client and server, unlike the request-response model of HTTP", "WebSockets are used exclusively for peer-to-peer file sharing", "WebSockets are an older technology replaced by HTTP/2"],
+        "correct": 1,
+        "explanation": "WebSockets allow for full-duplex communication (data can be sent and received simultaneously) over a single, long-lived TCP connection. This is different from HTTP's traditional request-response pattern, making WebSockets ideal for real-time applications like chat or live updates."
+      },
+      {
+        "id": 272,
+        "question": "What is the 'prototype' property in JavaScript objects, and how does it relate to prototypal inheritance?",
+        "options": ["A blueprint for creating new objects, similar to classes in other languages", "A property that points to an object's parent in the DOM tree", "An object from which other objects inherit properties and methods. It forms the basis of JavaScript's prototypal inheritance.", "A read-only property that stores the object's creation timestamp"],
         "correct": 2,
-        "explanation": "Road transportation is the most common method for freight due to its flexibility, door-to-door service capability, and extensive road networks."
+        "explanation": "Every JavaScript object has a `prototype` property (accessible via `__proto__` or `Object.getPrototypeOf()`), which is an object itself. When trying to access a property of an object, JavaScript will first look on the object itself, and if not found, it will look on its prototype, then the prototype's prototype, and so on, forming a prototype chain. This is the core of prototypal inheritance."
       },
       {
-        "id": 33,
-        "question": "What does GPS stand for?",
-        "options": ["Global Positioning System", "General Purpose System", "Geographic Planning Service", "Global Planning System"],
+        "id": 273,
+        "question": "What is the difference between Shadow DOM and Virtual DOM?",
+        "options": ["Shadow DOM is for server-side rendering, Virtual DOM is for client-side.", "Shadow DOM provides encapsulation for DOM and CSS in web components, Virtual DOM is an in-memory representation of the actual DOM used by libraries like React for performance optimization.", "Virtual DOM is a browser standard, Shadow DOM is a JavaScript library concept.", "They are two names for the same technology."],
+        "correct": 1,
+        "explanation": "Shadow DOM is a browser technology designed for encapsulation. It allows a hidden separate DOM to be attached to an element, with its own scope for styles and scripts. Virtual DOM is a concept implemented by libraries like React and Vue where a lightweight copy of the DOM is kept in memory, and changes are first applied to this virtual DOM, then efficiently batched and updated to the real DOM."
+      },
+      {
+        "id": 274,
+        "question": "What are HTTP/2 and HTTP/3, and what are their main advantages over HTTP/1.1?",
+        "options": ["They are new domain name systems.", "They are protocols offering improved performance through features like multiplexing, header compression (HTTP/2), and QUIC (HTTP/3) which reduces latency.", "They are JavaScript frameworks for building single-page applications.", "They are primarily focused on enhancing website security with new encryption methods."],
+        "correct": 1,
+        "explanation": "HTTP/2 introduced multiplexing (multiple requests over a single TCP connection), header compression, and server push to improve performance. HTTP/3 builds on this by using QUIC (over UDP) instead of TCP, which further reduces latency, improves connection establishment, and mitigates head-of-line blocking."
+      },
+      {
+        "id": 275,
+        "question": "What is a 'debounce' function in JavaScript, and when would you use it?",
+        "options": ["A function that executes repeatedly at a fixed interval.", "A higher-order function that limits the rate at which another function can be called, ensuring it only runs after a certain period of inactivity.", "A function that encrypts data before sending it to a server.", "A function that removes duplicate values from an array."],
+        "correct": 1,
+        "explanation": "Debouncing is a programming practice used to ensure that time-consuming tasks do not fire so often, that it stalls the performance of the web page. It groups a sequence of calls to a function into a single call after a specified period of inactivity. Useful for search input suggestions, window resizing, etc."
+      },
+      {
+        "id": 276,
+        "question": "What are Critical Rendering Path optimization techniques?",
+        "options": ["Techniques focused solely on reducing server response time.", "Strategies to prioritize the display of above-the-fold content as quickly as possible by optimizing the sequence of loading and rendering HTML, CSS, and JavaScript.", "Methods for compressing images to reduce file size.", "Algorithms for more efficient database querying."],
+        "correct": 1,
+        "explanation": "Optimizing the Critical Rendering Path involves minimizing the number of resources, their size, and the number of round trips needed to render the initial view of a webpage. This includes optimizing HTML structure, inlining critical CSS, deferring non-critical JavaScript, and efficient resource loading."
+      },
+      {
+        "id": 277,
+        "question": "What is the purpose of Content Security Policy (CSP) HTTP headers?",
+        "options": ["To define the visual style and layout of web content.", "To control the resources the user agent is allowed to load for a given page, helping to mitigate Cross-Site Scripting (XSS) and data injection attacks.", "To manage caching behavior for web assets.", "To specify the character encoding of the webpage."],
+        "correct": 1,
+        "explanation": "Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross-Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware."
+      },
+      {
+        "id": 278,
+        "question": "Explain the concept of 'currying' in functional JavaScript.",
+        "options": ["A technique for optimizing database queries.", "The process of transforming a function that takes multiple arguments into a sequence of functions that each take a single argument.", "A method for styling form elements using only JavaScript.", "A way to handle errors in asynchronous code more effectively."],
+        "correct": 1,
+        "explanation": "Currying is a functional programming technique where a function that takes multiple arguments is transformed into a series of functions, each taking a single argument. Each function in the series returns another function until all arguments have been supplied, at which point the original function's logic is executed."
+      },
+      {
+        "id": 279,
+        "question": "What is the difference between `Array.slice()` and `Array.splice()` in JavaScript?",
+        "options": ["`slice()` modifies the original array, `splice()` does not.", "`splice()` modifies the original array by adding/removing elements, `slice()` returns a shallow copy of a portion of the array without modifying the original.", "Both modify the original array but `splice()` is more versatile.", "`slice()` is for strings, `splice()` is for arrays."],
+        "correct": 1,
+        "explanation": "`slice()` returns a new array containing a shallow copy of a portion of the original array; it does not modify the original array. `splice()` changes the contents of an array by removing or replacing existing elements and/or adding new elements in place; it modifies the original array."
+      },
+      {
+        "id": 280,
+        "question": "What are ES6 Modules and how do they differ from CommonJS modules?",
+        "options": ["ES6 Modules are for CSS, CommonJS for JavaScript.", "ES6 Modules use `import`/`export` syntax and are statically analyzable, supporting tree shaking. CommonJS (used in Node.js) uses `require()`/`module.exports` and is loaded synchronously.", "CommonJS is the browser standard, ES6 Modules are for server-side JavaScript.", "There is no significant difference; they are just different syntaxes for the same thing."],
+        "correct": 1,
+        "explanation": "ES6 Modules (`import`/`export`) are the standard for JavaScript, designed to be statically analyzable (allowing for optimizations like tree shaking) and supporting asynchronous loading. CommonJS (`require`/`module.exports`) is the older module system primarily used in Node.js, which loads modules synchronously."
+      },
+      {
+        "id": 281,
+        "question": "What is the `Intersection Observer` API used for in web development?",
+        "options": ["To observe changes in the intersection of two database tables.", "To efficiently detect when an element enters or exits the browser's viewport or intersects with another specified element.", "To monitor network intersections and prevent data collisions.", "To observe user intersections with UI elements, such as click patterns."],
+        "correct": 1,
+        "explanation": "The Intersection Observer API provides a way to asynchronously observe changes in the intersection of a target element with an ancestor element or with a top-level document's viewport. It's useful for lazy-loading images, infinite scrolling, and triggering animations."
+      },
+      {
+        "id": 282,
+        "question": "What is a 'Pure Function' in JavaScript and why is it beneficial?",
+        "options": ["A function that has no side effects and always returns the same output for the same input.", "A function written purely in JavaScript without external libraries.", "A function that only performs UI updates.", "A function that is guaranteed to be free of bugs."],
         "correct": 0,
-        "explanation": "GPS stands for Global Positioning System, a satellite-based navigation system."
+        "explanation": "A pure function is a function where: 1. Given the same input, it will always return the same output. 2. It produces no side effects (e.g., modifying external variables, logging to console, I/O operations). Pure functions are predictable, testable, and easier to reason about."
       },
       {
-        "id": 34,
-        "question": "What is a delivery route?",
-        "options": ["A type of vehicle", "A planned path for deliveries", "A shipping container", "A payment method"],
+        "id": 283,
+        "question": "What are WebAssembly (Wasm) and its use cases?",
+        "options": ["A new JavaScript framework for building web components.", "A binary instruction format for a stack-based virtual machine, designed as a portable compilation target for high-level languages like C/C++/Rust, enabling near-native performance on the web.", "A standard for assembling web pages from pre-built components.", "An API for accessing low-level assembly language directly in the browser."],
         "correct": 1,
-        "explanation": "A delivery route is a planned path or sequence of stops for making deliveries efficiently."
+        "explanation": "WebAssembly (Wasm) is a low-level, assembly-like language with a compact binary format that runs with near-native performance. It's designed to be a compilation target for languages like C, C++, Rust, allowing developers to run code written in those languages on the web at high speed, for tasks like gaming, video editing, and complex computations."
       },
       {
-        "id": 35,
-        "question": "What does COD stand for in shipping?",
-        "options": ["Cash on Delivery", "Cost of Delivery", "Certificate of Delivery", "Customs on Demand"],
+        "id": 284,
+        "question": "What is the difference between `let`, `const`, and `var` concerning reassignment and re-declaration?",
+        "options": ["`var` can be re-declared and reassigned; `let` can be reassigned but not re-declared in the same scope; `const` cannot be reassigned or re-declared in the same scope.", "`var` and `let` are identical; `const` cannot be reassigned.", "`var` cannot be re-declared; `let` and `const` can.", "`const` can be reassigned if it's an object; `let` and `var` are always reassigned."],
         "correct": 0,
-        "explanation": "COD stands for Cash on Delivery, a payment method where payment is collected upon delivery."
+        "explanation": "`var` variables can be re-declared and updated. `let` variables can be updated but not re-declared within the same scope. `const` variables can neither be updated nor re-declared within the same scope (though properties of `const` objects can be modified)."
       },
       {
-        "id": 36,
-        "question": "What is freight?",
-        "options": ["A type of vehicle", "Goods transported in bulk", "A shipping document", "A payment fee"],
-        "correct": 1,
-        "explanation": "Freight refers to goods or cargo transported in bulk by truck, train, ship, or aircraft."
-      },
-      {
-        "id": 37,
-        "question": "What is a dispatch center?",
-        "options": ["A warehouse", "A central location for coordinating operations", "A type of vehicle", "A shipping method"],
-        "correct": 1,
-        "explanation": "A dispatch center is a central location where operations are coordinated and vehicles/personnel are assigned to tasks."
-      },
-      {
-        "id": 38,
-        "question": "What does LTL stand for in shipping?",
-        "options": ["Less Than Load", "Large Transport Load", "Long Term Lease", "Limited Time License"],
+        "id": 285,
+        "question": "What is the purpose of `Object.freeze()` in JavaScript?",
+        "options": ["To make an object's properties immutable (cannot be added, deleted, or changed).", "To temporarily pause an object's methods from executing.", "To convert an object into a JSON string.", "To delete an object from memory."],
         "correct": 0,
-        "explanation": "LTL stands for Less Than Truckload, referring to shipments that don't require a full truck."
+        "explanation": "`Object.freeze()` freezes an object. A frozen object can no longer be changed; new properties cannot be added, existing properties cannot be removed, and values of existing properties cannot be changed. It also prevents its prototype from being changed."
       },
       {
-        "id": 39,
-        "question": "What is a manifest in shipping?",
-        "options": ["A type of container", "A document listing cargo details", "A shipping route", "A payment receipt"],
+        "id": 286,
+        "question": "What is a 'higher-order function' in JavaScript?",
+        "options": ["A function that performs complex mathematical operations.", "A function that operates on other functions, either by taking them as arguments or by returning them.", "A function that is defined at the highest scope of a program.", "A function that is part of the JavaScript standard library with elevated privileges."],
         "correct": 1,
-        "explanation": "A manifest is a document that lists the details of cargo being transported."
+        "explanation": "A higher-order function is a function that either takes one or more functions as arguments, or returns a function as its result, or both. Examples include `map()`, `filter()`, and `reduce()`."
       },
       {
-        "id": 40,
-        "question": "What does DOT stand for in transportation?",
-        "options": ["Department of Transportation", "Document of Transit", "Delivery on Time", "Direct Operations Team"],
+        "id": 287,
+        "question": "What are `Symbol`s in ES6 JavaScript used for?",
+        "options": ["To create unique string identifiers for object properties, preventing naming collisions.", "As a shorthand for creating `<img>` elements.", "To define symbolic links between different parts of an application.", "To perform symbolic mathematical computations."],
         "correct": 0,
-        "explanation": "DOT stands for Department of Transportation, the government agency that regulates transportation."
+        "explanation": "Symbols are a primitive data type introduced in ES6. They are unique and immutable. A primary use case is to create unique property keys for objects, ensuring that these properties don't unintentionally collide with other keys (e.g., from other libraries or built-in methods)."
       },
       {
-        "id": 101,
-        "question": "What is a warehouse?",
-        "options": ["A type of vehicle", "A storage facility for goods", "A shipping route", "A delivery method"],
+        "id": 288,
+        "question": "Explain the concept of 'Composition over Inheritance' in object-oriented JavaScript.",
+        "options": ["Inheritance is always preferred for code reuse.", "It's a principle that favors building complex objects by combining simpler, smaller objects (composition) rather than inheriting behavior from a complex hierarchy of classes.", "Composition refers to composing UI elements, while inheritance is for data models.", "It means JavaScript does not support classical inheritance."],
         "correct": 1,
-        "explanation": "A warehouse is a large building used for storing goods and materials."
+        "explanation": "Composition over inheritance is a design principle that suggests objects should achieve polymorphic behavior and code reuse by their composition (by containing instances of other objects that implement the desired functionality) rather than inheriting from a base or parent class. This often leads to more flexible and maintainable code."
       },
       {
-        "id": 102,
-        "question": "What does FOB stand for in shipping?",
-        "options": ["Free on Board", "Freight on Board", "First on Board", "Final on Board"],
-        "correct": 0,
-        "explanation": "FOB stands for Free on Board, indicating when ownership and liability transfer."
-      },
-      {
-        "id": 103,
-        "question": "What is a pallet?",
-        "options": ["A shipping document", "A flat platform for stacking goods", "A type of vehicle", "A payment method"],
+        "id": 289,
+        "question": "What is 'code splitting' in the context of modern web development bundlers?",
+        "options": ["Manually splitting large JavaScript files into smaller ones.", "A feature of module bundlers (like Webpack, Rollup) that allows creating multiple bundles that can be dynamically loaded at runtime, improving initial load time.", "Splitting code between client-side and server-side execution.", "A version control technique for managing different code branches."],
         "correct": 1,
-        "explanation": "A pallet is a flat platform used for stacking and transporting goods."
+        "explanation": "Code splitting is a technique where the JavaScript bundle is broken down into smaller chunks. These chunks can then be loaded on demand (e.g., when a user navigates to a certain route or interacts with a feature), rather than loading all JavaScript upfront. This improves the initial load performance of the application."
       },
       {
-        "id": 104,
-        "question": "What is cargo?",
-        "options": ["A type of ship", "Goods being transported", "A shipping route", "A delivery schedule"],
+        "id": 290,
+        "question": "What is the role of `try...catch...finally` in JavaScript error handling?",
+        "options": ["`try` defines code to attempt, `catch` handles errors, `finally` runs regardless of errors but only if `catch` is executed.", "`try` defines code, `catch` handles errors, `finally` always executes after `try` and `catch`, regardless of whether an exception was thrown or caught.", "`try` is for synchronous code, `catch` for asynchronous, `finally` for cleanup.", "`finally` executes only if no errors occur in the `try` block."],
         "correct": 1,
-        "explanation": "Cargo refers to goods or products being transported by various means."
+        "explanation": "The `try` block contains code that might throw an exception. The `catch` block executes if an exception is thrown in the `try` block. The `finally` block always executes after the `try` and `catch` blocks have completed, regardless of whether an exception was thrown or caught. It's often used for cleanup code."
       },
       {
-        "id": 105,
-        "question": "What does RFID stand for?",
-        "options": ["Radio Frequency Identification", "Rapid Freight Information Data", "Real-time Fleet Information Display", "Remote Facility Identification"],
-        "correct": 0,
-        "explanation": "RFID stands for Radio Frequency Identification, used for tracking items."
-      }
-    ],
-    "medium": [
-      {
-        "id": 41,
-        "question": "What is a Bill of Lading?",
-        "options": ["A payment receipt", "A shipping document", "An insurance policy", "A driver's license"],
+        "id": 291,
+        "question": "What are Generator functions in ES6 JavaScript (`function*`)?",
+        "options": ["Functions that automatically generate documentation for your code.", "Functions that can be exited and later re-entered, with their context (variable bindings) saved across re-entrances. They use the `yield` keyword to pause and resume execution.", "Functions designed specifically for generating random numbers or unique IDs.", "Functions that generate HTML templates dynamically."],
         "correct": 1,
-        "explanation": "A Bill of Lading is a legal document that serves as a receipt for cargo and a contract for transportation. It details the type, quantity, and destination of the goods being carried."
+        "explanation": "Generator functions are a special type of function that can be paused and resumed. They are defined using `function*` and use the `yield` keyword to produce a sequence of values. Each time `yield` is encountered, the function's execution is paused, and the yielded value is returned. They are useful for creating iterators, handling asynchronous flows, and more."
       },
       {
-        "id": 42,
-        "question": "What is deadhead in transportation?",
-        "options": ["A broken vehicle", "Operating a vehicle without cargo", "Maximum weight limit", "Emergency stop"],
+        "id": 292,
+        "question": "What is 'Referential Transparency' in functional programming?",
+        "options": ["The ability to reference transparent images in CSS.", "A property of functions where a function call can be replaced by its return value without changing the program's behavior. This implies the function is pure and has no side effects.", "A security feature that makes sure all references are valid.", "A UI design principle focusing on transparent elements."],
         "correct": 1,
-        "explanation": "Deadhead refers to operating a vehicle without cargo or passengers, typically when returning from a delivery."
+        "explanation": "An expression is called referentially transparent if it can be replaced with its corresponding value without changing the program's behavior. This requires that the expression be pure, meaning that it always evaluates to the same result for the same input values and has no observable side effects."
       },
       {
-        "id": 43,
-        "question": "What is cross-docking?",
-        "options": ["Loading multiple vehicles", "Transferring goods directly between vehicles", "Vehicle maintenance", "Route planning"],
+        "id": 293,
+        "question": "What are the main differences between `PUT` and `POST` HTTP methods?",
+        "options": ["`PUT` is for creating resources, `POST` is for updating them.", "`POST` is for creating resources, `PUT` is typically for updating an existing resource or creating a resource if the ID is known and provided by the client.", "`PUT` is secure, `POST` is not.", "`POST` can send more data than `PUT`."],
         "correct": 1,
-        "explanation": "Cross-docking is the practice of unloading goods from incoming vehicles and loading them directly onto outbound vehicles with minimal storage time."
+        "explanation": "`POST` is often used to create a new resource where the server determines the URI. `PUT` is typically used to update an existing resource at a known URI, or to create a new resource at a specific URI if the client is able to determine it. `PUT` requests are generally idempotent (multiple identical requests have the same effect as a single one), while `POST` requests are not necessarily."
       },
       {
-        "id": 44,
-        "question": "What does EDI stand for in logistics?",
-        "options": ["Electronic Data Interchange", "Emergency Dispatch Information", "Efficient Delivery Index", "Electronic Document Identification"],
-        "correct": 0,
-        "explanation": "EDI stands for Electronic Data Interchange, a system for exchanging business documents electronically."
-      },
-      {
-        "id": 45,
-        "question": "What is a freight broker?",
-        "options": ["A vehicle driver", "An intermediary between shippers and carriers", "A warehouse manager", "A customs officer"],
+        "id": 294,
+        "question": "What is the 'Temporal Dead Zone' (TDZ) in JavaScript ES6?",
+        "options": ["A period where JavaScript execution is paused due to a long-running script.", "The period between entering scope and a `let` or `const` variable's declaration, during which accessing the variable results in a ReferenceError.", "A deprecated JavaScript feature related to time zones.", "A zone in memory where variables are stored temporarily before garbage collection."],
         "correct": 1,
-        "explanation": "A freight broker is an intermediary who arranges transportation between shippers and carriers."
+        "explanation": "The Temporal Dead Zone (TDZ) is the term to describe the state where variables are un-reachable. They are in scope, but they are not yet declared. `let` and `const` variables exist in the TDZ from the start of their enclosing scope until their declaration is processed."
       },
       {
-        "id": 106,
-        "question": "What is inventory management?",
-        "options": ["Counting money", "Tracking and controlling stock levels", "Managing employees", "Planning routes"],
+        "id": 295,
+        "question": "What is 'Server-Sent Events' (SSE) and how does it differ from WebSockets?",
+        "options": ["SSE is a bidirectional communication protocol; WebSockets are unidirectional from server to client.", "SSE is a technology enabling a browser to receive automatic updates from a server via HTTP connection (unidirectional from server to client); WebSockets provide full-duplex, bidirectional communication.", "SSE is more secure than WebSockets.", "SSE is for sending large binary data; WebSockets are for text messages."],
         "correct": 1,
-        "explanation": "Inventory management involves tracking and controlling stock levels to optimize operations."
+        "explanation": "Server-Sent Events (SSE) allow a web page to get updates from a server automatically. The communication is unidirectional: from server to client. WebSockets, on the other hand, provide a persistent, bidirectional communication channel. SSE is simpler for server-to-client streaming over HTTP."
       },
       {
-        "id": 107,
-        "question": "What is a distribution center?",
-        "options": ["A type of vehicle", "A facility for storing and shipping products", "A software system", "A payment method"],
+        "id": 296,
+        "question": "What is the purpose of `Object.defineProperty()` in JavaScript?",
+        "options": ["To define a new global object.", "To add a new property to an object, or modify an existing property's attributes (e.g., writable, enumerable, configurable, getter/setter).", "To prevent any new properties from being added to an object.", "To create a private property within an object."],
         "correct": 1,
-        "explanation": "A distribution center is a facility used for storing and shipping products to customers."
+        "explanation": "`Object.defineProperty()` allows for precise addition or modification of a property on an object. You can control the property's value, whether it's writable, enumerable (appears in `for...in` loops), or configurable (can be deleted or have its attributes changed)."
       },
       {
-        "id": 108,
-        "question": "What does TMS stand for in logistics?",
-        "options": ["Transportation Management System", "Total Management Solution", "Traffic Monitoring Service", "Transport Maintenance System"],
-        "correct": 0,
-        "explanation": "TMS stands for Transportation Management System, software for managing transportation operations."
-      },
-      {
-        "id": 109,
-        "question": "What is intermodal transportation?",
-        "options": ["Using one mode of transport", "Using multiple modes of transport", "Emergency transportation", "Local delivery only"],
+        "id": 297,
+        "question": "Explain 'IndexedDB' and its common use cases in web applications.",
+        "options": ["A server-side SQL database for Node.js applications.", "A low-level API for client-side storage of significant amounts of structured data, including files/blobs. It's a transactional, NoSQL-style database in the browser.", "An API for indexing website content for search engines.", "A JavaScript library for creating visual database schemas."],
         "correct": 1,
-        "explanation": "Intermodal transportation involves using multiple modes of transport for a single journey."
+        "explanation": "IndexedDB is a transactional database system, like an SQL-based RDBMS. However, unlike SQL-based RDBMSes, which use fixed-column tables, IndexedDB is a JavaScript-based object-oriented database. It allows you to store and retrieve objects that are indexed with a key; any objects supported by the structured clone algorithm can be stored. It's useful for offline data storage, caching large datasets, and applications requiring rich client-side data persistence."
       },
       {
-        "id": 110,
-        "question": "What is a shipping manifest?",
-        "options": ["A vehicle inspection", "A detailed list of cargo", "A payment receipt", "A route map"],
+        "id": 298,
+        "question": "What are 'render props' and 'higher-order components (HOCs)' in React, and how do they facilitate code reuse?",
+        "options": ["Both are methods for server-side rendering only.", "Render props pass a function as a prop that a component can use to render something. HOCs are functions that take a component and return a new component with additional props or logic. Both are patterns for sharing component logic and behavior.", "Render props are for styling, HOCs are for state management.", "HOCs are deprecated in favor of render props."],
         "correct": 1,
-        "explanation": "A shipping manifest is a detailed list of all cargo being transported."
-      }
-    ],
-    "hard": [
+        "explanation": "Both are advanced React patterns for reusing component logic. A Higher-Order Component (HOC) is a function that takes a component and returns a new component, usually enhancing it with additional props or behavior. A Render Prop is a technique for sharing code between React components using a prop whose value is a function that returns a React element and tells the component what to render."
+      },
       {
-        "id": 46,
-        "question": "What is the primary purpose of route optimization in dispatch?",
-        "options": ["Reduce fuel costs", "Minimize delivery time", "Improve customer satisfaction", "All of the above"],
+        "id": 299,
+        "question": "What are HTTP Strict Transport Security (HSTS) headers used for?",
+        "options": ["To enforce the use of specific HTTP methods like GET or POST.", "To instruct browsers to only communicate with a website using HTTPS, preventing protocol downgrade attacks and cookie hijacking over HTTP.", "To define strict content types for HTTP responses.", "To manage transport layer security (TLS) certificate renewals."],
+        "correct": 1,
+        "explanation": "HTTP Strict Transport Security (HSTS) is a web security policy mechanism which helps to protect websites against protocol downgrade attacks and cookie hijacking. It allows web servers to declare that web browsers (or other complying user agents) should only interact with it using secure HTTPS connections, and never via the insecure HTTP protocol."
+      },
+      {
+        "id": 300,
+        "question": "What is the `Proxy` object in ES6 JavaScript used for?",
+        "options": ["To create network proxies for HTTP requests.", "To define custom behavior for fundamental operations (e.g., property lookup, assignment, enumeration, function invocation) on an object.", "To provide a secure proxy for accessing the DOM.", "To manage proxy settings for the web browser via JavaScript."],
+        "correct": 1,
+        "explanation": "The `Proxy` object enables you to create a proxy for another object, which can intercept and redefine fundamental operations for that object. This allows for metaprogramming, such as trapping property lookups, assignments, function calls, etc., to add custom logic."
+      },
+      {
+        "id": 301,
+        "question": "What is the 'JAMstack' architecture, and what are its core principles?",
+        "options": ["JavaScript, APIs, and MySQL. Focuses on server-side rendering.", "JavaScript, APIs, and Markup. Focuses on pre-rendering static sites, client-side JavaScript for dynamic features, and leveraging APIs for server-side processes.", "Java, AngularJS, and MongoDB. A full-stack framework.", "jQuery, AJAX, and Memcached. An older client-server model."],
+        "correct": 1,
+        "explanation": "JAMstack (JavaScript, APIs, and Markup) is a modern web development architecture. Core principles include pre-rendering static HTML (markup), enhancing with client-side JavaScript for dynamic functionality, and using reusable APIs for server-side operations, often served via CDNs for better performance and security."
+      },
+      {
+        "id": 302,
+        "question": "How does the `WeakMap` object in JavaScript differ from a regular `Map`?",
+        "options": ["`WeakMap` keys can only be strings, `Map` keys can be any value.", "`WeakMap` keys must be objects, and its keys are weakly referenced, meaning they don't prevent garbage collection if there are no other references to the key object. `Map` can have any value as keys and holds strong references.", "`WeakMap` is not iterable.", "Both B and C are correct."],
         "correct": 3,
-        "explanation": "Route optimization aims to find the most efficient routes to reduce fuel costs, minimize delivery time, and improve customer satisfaction by ensuring timely deliveries."
+        "explanation": "`WeakMap` keys must be objects. Unlike `Map`, `WeakMap` keys are weakly referenced, meaning if an object used as a key is garbage collected (because there are no other strong references to it), the corresponding entry in the `WeakMap` is also removed. `WeakMap`s are also not iterable and don't have a `size` property."
       },
       {
-        "id": 47,
-        "question": "What is fleet management software primarily used for?",
-        "options": ["Vehicle maintenance only", "Comprehensive vehicle and driver management", "Route planning only", "Fuel monitoring only"],
+        "id": 303,
+        "question": "What are 'CSS Custom Properties' (Variables) and how do they enhance CSS development?",
+        "options": ["They are predefined variables by CSS that cannot be changed.", "They allow developers to define reusable values (e.g., colors, sizes) in one place using a custom syntax (e.g., `--my-color: blue;`) and then reuse them throughout their CSS using `var(--my-color)`, improving maintainability and theming.", "They are JavaScript variables that can be directly used in CSS files.", "They are only supported in CSS preprocessors like SASS/LESS."],
         "correct": 1,
-        "explanation": "Fleet management software provides comprehensive tools for managing vehicles, drivers, routes, maintenance, and operational efficiency."
+        "explanation": "CSS Custom Properties (also known as CSS Variables) allow authors to define named values that can be reused throughout a stylesheet. They are set using custom property notation (e.g., `--main-color: black;`) and are accessed using the `var()` function (e.g., `color: var(--main-color);`). This makes it easier to manage themes and maintain large stylesheets."
       },
       {
-        "id": 48,
-        "question": "What is the difference between FTL and LTL shipping?",
-        "options": ["No difference", "FTL uses full truck capacity, LTL shares truck space", "FTL is faster, LTL is cheaper", "FTL is for international, LTL is domestic"],
+        "id": 304,
+        "question": "Explain the concept of 'idempotence' in the context of HTTP methods.",
+        "options": ["An HTTP method that always returns the same response for identical requests.", "An HTTP method where making multiple identical requests has the same effect on the server as making a single such request. Methods like GET, HEAD, PUT, DELETE are typically idempotent.", "An HTTP method that can only be called once per session.", "An HTTP method that is more secure than others."],
         "correct": 1,
-        "explanation": "FTL (Full Truckload) uses the entire truck capacity for one shipment, while LTL (Less Than Truckload) combines multiple smaller shipments in one truck."
+        "explanation": "An HTTP method is idempotent if an identical request can be made once or several times in a row with the same effect on the server state. GET, HEAD, PUT, and DELETE methods are defined to be idempotent. POST is not generally idempotent."
       },
       {
-        "id": 49,
-        "question": "What is supply chain visibility?",
-        "options": ["Seeing physical goods", "Real-time tracking and monitoring of supply chain operations", "Warehouse lighting", "Vehicle inspection"],
+        "id": 305,
+        "question": "What is 'Optimistic UI Update' pattern in frontend development?",
+        "options": ["Updating the UI only after receiving pessimistic feedback from the server.", "A pattern where the UI is updated immediately as if an asynchronous operation was successful, before actually receiving confirmation from the server. If the server operation fails, the UI is then rolled back.", "A UI that always assumes the user will perform the optimal action.", "A UI design pattern that uses optimistic colors and themes."],
         "correct": 1,
-        "explanation": "Supply chain visibility refers to the ability to track and monitor goods, information, and processes throughout the entire supply chain in real-time."
+        "explanation": "Optimistic UI updates improve perceived performance by updating the UI immediately upon user action, assuming an asynchronous request (e.g., to a server) will succeed. If the server request later fails, the UI changes are reverted. This makes the application feel faster and more responsive."
       },
       {
-        "id": 50,
-        "question": "What is just-in-time (JIT) delivery?",
-        "options": ["Delivering at any time", "Delivering goods exactly when needed", "Fast delivery service", "Emergency delivery"],
+        "id": 306,
+        "question": "What are the key features and benefits of using a CSS preprocessor like Sass or Less?",
+        "options": ["They compile CSS directly in the browser, improving runtime performance.", "They extend CSS with features like variables, nesting, mixins, functions, and inheritance, which help in writing more maintainable, organized, and reusable CSS code that is then compiled into standard CSS.", "They are replacements for CSS and do not produce standard CSS files.", "They primarily focus on automating CSS vendor prefixing."],
         "correct": 1,
-        "explanation": "Just-in-time (JIT) delivery is a strategy where goods are delivered exactly when they are needed, minimizing inventory costs and storage requirements."
+        "explanation": "CSS preprocessors like Sass and Less provide features not available in standard CSS, such as variables, mixins, nesting, functions, and loops. This allows for more modular, DRY (Don't Repeat Yourself), and maintainable stylesheets, which are then compiled into browser-compatible CSS."
       },
       {
-        "id": 111,
-        "question": "What is supply chain optimization?",
-        "options": ["Making supply chains longer", "Improving efficiency and reducing costs", "Adding more suppliers", "Eliminating technology"],
-        "correct": 1,
-        "explanation": "Supply chain optimization involves improving efficiency and reducing costs across the entire supply chain."
-      },
-      {
-        "id": 112,
-        "question": "What is vendor-managed inventory (VMI)?",
-        "options": ["Customers manage vendor inventory", "Vendors manage customer inventory", "No inventory management", "Automated inventory only"],
-        "correct": 1,
-        "explanation": "VMI is a system where vendors manage their customers' inventory levels."
-      },
-      {
-        "id": 113,
-        "question": "What is the purpose of load planning in logistics?",
-        "options": ["Planning employee workload", "Optimizing cargo arrangement", "Planning building loads", "Electrical load planning"],
-        "correct": 1,
-        "explanation": "Load planning involves optimizing how cargo is arranged and distributed in transportation vehicles."
-      },
-      {
-        "id": 114,
-        "question": "What is reverse logistics?",
-        "options": ["Driving in reverse", "Managing returns and recycling", "Backward route planning", "Reverse engineering"],
-        "correct": 1,
-        "explanation": "Reverse logistics involves managing the flow of products from customers back to manufacturers for returns, recycling, or disposal."
-      },
-      {
-        "id": 115,
-        "question": "What is demand forecasting in supply chain management?",
-        "options": ["Predicting weather", "Predicting customer demand", "Forecasting employee needs", "Predicting vehicle breakdowns"],
-        "correct": 1,
-        "explanation": "Demand forecasting involves predicting future customer demand to optimize inventory and production planning."
-      }
-    ]
-  },
-  "cybersecurity": {
-    "easy": [
-      {
-        "id": 51,
-        "question": "What does VPN stand for?",
-        "options": ["Virtual Private Network", "Very Private Network", "Verified Protection Network", "Virtual Protection Node"],
+        "id": 307,
+        "question": "What is 'Tail Call Optimization' (TCO) and does JavaScript generally support it?",
+        "options": ["An optimization for reducing the call stack size for certain recursive functions where the recursive call is the very last operation. JavaScript engines have limited or inconsistent support for it.", "An optimization for making CSS tailwind classes load faster.", "A method to optimize the tail end of an array.", "A specific optimization for `console.tail()` calls."],
         "correct": 0,
-        "explanation": "VPN stands for Virtual Private Network. It creates a secure, encrypted connection over the internet between your device and a remote server."
+        "explanation": "Tail Call Optimization is a process where a compiler can optimize certain types of recursive functions (tail calls) to avoid growing the call stack, thus preventing stack overflow errors for deep recursion. While specified in ECMAScript 2015 (ES6), actual support in JavaScript engines has been historically inconsistent and limited, especially across different browsers."
       },
       {
-        "id": 52,
-        "question": "What is phishing?",
-        "options": ["A type of fishing", "A method to catch malware", "A social engineering attack", "A network protocol"],
-        "correct": 2,
-        "explanation": "Phishing is a social engineering attack where attackers impersonate legitimate organizations to steal sensitive information like passwords, credit card numbers, or personal data."
-      },
-      {
-        "id": 53,
-        "question": "What is malware?",
-        "options": ["Good software", "Malicious software", "Hardware component", "Network protocol"],
+        "id": 308,
+        "question": "What is the 'SameSite' attribute for HTTP cookies and its purpose in relation to CSRF attacks?",
+        "options": ["It specifies that a cookie should only be sent to sites with the exact same IP address.", "It controls whether a cookie is sent with cross-origin requests, helping to mitigate Cross-Site Request Forgery (CSRF) attacks. Values include `Strict`, `Lax`, and `None`.", "It ensures cookies from the same site are encrypted.", "It dictates that cookies can only be set by JavaScript from the same site."],
         "correct": 1,
-        "explanation": "Malware is malicious software designed to damage, disrupt, or gain unauthorized access to computer systems."
+        "explanation": "The `SameSite` cookie attribute allows servers to assert that a cookie ought not to be sent along with cross-site requests, which provides some protection against cross-site request forgery attacks (CSRF). `Strict` prevents sending the cookie on any cross-site navigation, `Lax` allows it for top-level navigations using safe HTTP methods (like GET), and `None` (with `Secure`) allows cross-site sending."
       },
       {
-        "id": 54,
-        "question": "What is a firewall?",
-        "options": ["A physical wall", "Network security system", "Antivirus software", "Password manager"],
+        "id": 309,
+        "question": "What are 'Microfrontends' in web architecture?",
+        "options": ["Very small frontend JavaScript libraries.", "An architectural style where a web application is decomposed into smaller, independently deployable frontend applications that are composed together to form a cohesive whole.", "Frontend components that are less than 1KB in size.", "A CSS methodology for creating tiny, reusable style components."],
         "correct": 1,
-        "explanation": "A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on security rules."
+        "explanation": "Microfrontends are an architectural approach where a single web application is composed of multiple smaller, independently developed, tested, and deployed frontend applications. Each microfrontend can be owned by a different team and potentially use different technologies, but they integrate to provide a unified user experience."
       },
       {
-        "id": 55,
-        "question": "What does SSL stand for?",
-        "options": ["Secure Socket Layer", "System Security Lock", "Safe Site Link", "Secure Server Login"],
-        "correct": 0,
-        "explanation": "SSL stands for Secure Socket Layer, a protocol for establishing encrypted links between web servers and browsers."
-      },
-      {
-        "id": 56,
-        "question": "What is a strong password?",
-        "options": ["Your name", "123456", "A complex mix of characters, numbers, and symbols", "password"],
-        "correct": 2,
-        "explanation": "A strong password is a complex combination of uppercase and lowercase letters, numbers, and special characters."
-      },
-      {
-        "id": 57,
-        "question": "What is social engineering?",
-        "options": ["Building social networks", "Manipulating people to divulge information", "Software engineering", "Network engineering"],
+        "id": 310,
+        "question": "What is the 'BFC' (Block Formatting Context) in CSS, and why is it important for layout?",
+        "options": ["A JavaScript framework for building complex forms.", "A part of the visual CSS rendering of a web page in which block-level boxes are laid out. It's important because it contains floats, prevents margin collapsing between its children and its own margins, and defines a contained layout region.", "A CSS property for controlling background fill colors.", "A debugging tool for CSS block elements."],
         "correct": 1,
-        "explanation": "Social engineering is the practice of manipulating people to divulge confidential information or perform actions that compromise security."
+        "explanation": "A Block Formatting Context (BFC) is a part of a CSS visual rendering of a web page. It's the region in which the layout of block boxes occurs and to which floats, positioning, and clearing apply. Creating a new BFC can be useful to contain floats, prevent margins from collapsing, or to create a new independent layout scope."
       },
       {
-        "id": 58,
-        "question": "What is encryption?",
-        "options": ["Deleting data", "Converting data into code", "Backing up data", "Organizing data"],
+        "id": 311,
+        "question": "What is the `ResizeObserver` API in JavaScript used for?",
+        "options": ["To observe changes in the browser window's overall size.", "To get notifications when an element's content or border box size changes, allowing for responsive design adjustments beyond just viewport changes.", "To resize images dynamically based on network speed.", "To observe and control the resizing of text areas by the user."],
         "correct": 1,
-        "explanation": "Encryption is the process of converting readable data into an encoded format that can only be read with the correct decryption key."
+        "explanation": "The `ResizeObserver` API provides a way to observe changes to an element's size. It allows you to be notified when an element's content rectangle (its content box or border box) has changed its size, which is useful for creating components that can react to changes in their own dimensions."
       },
       {
-        "id": 59,
-        "question": "What is antivirus software?",
-        "options": ["Software that creates viruses", "Software that detects and removes malware", "Software for creating backups", "Software for browsing the internet"],
+        "id": 312,
+        "question": "What is 'Declarative vs. Imperative' programming in the context of libraries like React?",
+        "options": ["Declarative focuses on how to achieve results, Imperative on what results to achieve.", "Declarative programming focuses on describing *what* the desired outcome should be, letting the system figure out *how* to achieve it (e.g., React components). Imperative programming focuses on explicitly specifying the steps (how) to achieve an outcome (e.g., direct DOM manipulation).", "Declarative is for backend, Imperative for frontend.", "Imperative code is always shorter and more efficient."],
         "correct": 1,
-        "explanation": "Antivirus software is designed to detect, prevent, and remove malicious software from computer systems."
+        "explanation": "In declarative programming, you describe what you want to achieve, and the language/framework figures out how to do it (e.g., in React, you declare what the UI should look like for a given state). In imperative programming, you explicitly write out the step-by-step instructions to achieve a result (e.g., manually creating DOM elements, setting attributes, appending them)."
       },
       {
-        "id": 60,
-        "question": "What is a virus in cybersecurity?",
-        "options": ["A biological virus", "Malicious code that replicates itself", "Network hardware", "Security protocol"],
+        "id": 313,
+        "question": "What is the 'Shallow Copy' vs 'Deep Copy' of an object in JavaScript?",
+        "options": ["Shallow copy copies only the object's memory address; deep copy copies its prototype.", "A shallow copy of an object copies its top-level properties. If a property value is a reference to another object, only the reference is copied, not the nested object itself. A deep copy recursively copies all properties and nested objects, creating a completely independent clone.", "Deep copy is faster but less accurate.", "Shallow copy is a read-only copy; deep copy is writable."],
         "correct": 1,
-        "explanation": "In cybersecurity, a virus is malicious code that can replicate itself and spread to other programs or systems."
+        "explanation": "A shallow copy creates a new object and copies the values of the original object's properties. If a property is a primitive, its value is copied. If it's a reference to another object (e.g., a nested object or array), the reference is copied, so both original and copy point to the same nested object. A deep copy recursively duplicates all nested objects as well, creating a fully independent clone."
       },
       {
-        "id": 116,
-        "question": "What is a trojan horse in cybersecurity?",
-        "options": ["A wooden horse", "Malware disguised as legitimate software", "A security tool", "A network device"],
+        "id": 314,
+        "question": "What is 'Hydration' in the context of Server-Side Rendering (SSR) or Static Site Generation (SSG) with JavaScript frameworks?",
+        "options": ["The process of dehydrating server data before sending it to the client.", "The client-side JavaScript process of attaching event listeners and making a statically rendered HTML page interactive, effectively 'breathing life' into it after it's been delivered from the server.", "A technique for optimizing water-themed websites.", "The process of compressing HTML, CSS, and JavaScript on the server."],
         "correct": 1,
-        "explanation": "A trojan horse is malware that disguises itself as legitimate software to trick users into installing it."
+        "explanation": "Hydration is the process used by client-side JavaScript frameworks (like React, Vue, Angular) to make server-rendered HTML (from SSR or SSG) interactive. The framework takes the static HTML and attaches the necessary JavaScript event handlers and state, effectively 'hydrating' the static markup into a fully dynamic application in the browser."
       },
       {
-        "id": 117,
-        "question": "What is spyware?",
-        "options": ["Software for spies", "Malware that secretly gathers information", "Antivirus software", "Gaming software"],
+        "id": 315,
+        "question": "What is 'Preloading', 'Prefetching', and 'Preconnecting' in web performance optimization?",
+        "options": ["All are methods for reducing server load.", "`Preload` fetches high-priority resources needed for the current page. `Prefetch` fetches low-priority resources likely needed for future navigations. `Preconnect` establishes early connections to critical third-party origins.", "They are techniques for client-side data caching only.", "`Preload` is for images, `Prefetch` for scripts, `Preconnect` for styles."],
         "correct": 1,
-        "explanation": "Spyware is malicious software that secretly gathers information about users without their knowledge."
+        "explanation": "`<link rel=\"preload\">` tells the browser to download a resource as soon as possible because it's critical for the current page. `<link rel=\"prefetch\">` hints to the browser that a resource might be needed for future navigations, so it can be fetched during idle time. `<link rel=\"preconnect\">` allows the browser to set up early connections (DNS lookup, TCP handshake, TLS negotiation) to important third-party domains, saving time on later requests."
       },
       {
-        "id": 118,
-        "question": "What is a password manager?",
-        "options": ["A person who manages passwords", "Software that stores and manages passwords", "A type of malware", "A network security device"],
+        "id": 316,
+        "question": "What is the 'module' type in a `<script type=\"module\">` tag, and how does it change script behavior?",
+        "options": ["It signifies a very small script module.", "It enables the use of ES6 module syntax (`import`/`export`) directly in the browser. Scripts are deferred by default, run in strict mode, and have their own scope.", "It means the script is a CSS module.", "It's an alias for `<script type=\"text/javascript\">` with better performance."],
         "correct": 1,
-        "explanation": "A password manager is software that securely stores and manages passwords for various accounts."
+        "explanation": "Using `type=\"module\"` in a `<script>` tag allows you to use JavaScript modules (with `import` and `export` statements) directly in the browser. Module scripts are deferred by default (executed after the document has been parsed), always run in strict mode, and variables declared in a module are scoped to that module, not globally."
       },
       {
-        "id": 119,
-        "question": "What is adware?",
-        "options": ["Software that displays advertisements", "Antivirus software", "Hardware component", "Network protocol"],
-        "correct": 0,
-        "explanation": "Adware is software that automatically displays or downloads advertising content."
-      },
-      {
-        "id": 120,
-        "question": "What is a computer worm?",
-        "options": ["A physical worm", "Self-replicating malware", "A security tool", "A network cable"],
+        "id": 317,
+        "question": "What are 'CSS Houdini' APIs?",
+        "options": ["A set of APIs for creating CSS escape rooms.", "A collection of low-level APIs that expose parts of the CSS engine to developers, allowing them to extend CSS by writing JavaScript to create new CSS features and polyfills without waiting for browser vendors.", "A CSS framework developed by Houdini Inc.", "APIs for escaping special characters in CSS string values."],
         "correct": 1,
-        "explanation": "A computer worm is self-replicating malware that spreads across networks without user intervention."
+        "explanation": "CSS Houdini is a set of low-level APIs that give developers direct access to the CSS Object Model (CSSOM), enabling them to write JavaScript that the browser can parse as CSS, effectively creating new CSS features or polyfilling existing ones before they are natively supported. Examples include the Paint API, Typed OM, and Layout API."
+      },
+      {
+        "id": 318,
+        "question": "What is the concept of 'Idempotent Operations' in distributed systems or API design?",
+        "options": ["Operations that can only be performed by users with specific IDs.", "Operations where making multiple identical requests has the same effect as making a single request. This is important for reliability when requests might be retried.", "Operations that are always executed in the same order.", "Operations that are guaranteed to be free of side effects."],
+        "correct": 1,
+        "explanation": "An idempotent operation is one that has the same result whether it's executed once or multiple times. For example, setting a resource to a specific state is idempotent. This property is crucial in distributed systems and APIs to handle retries safely in case of network failures, ensuring that re-sending a request doesn't unintentionally cause multiple actions."
+      },
+      {
+        "id": 319,
+        "question": "What is the `requestAnimationFrame()` method in JavaScript, and when is it preferred over `setTimeout()` for animations?",
+        "options": ["A method to request a specific animation frame from a server.", "A method that tells the browser you wish to perform an animation and requests that the browser call a specified function to update an animation before the next repaint. It's preferred for animations as it optimizes for smooth rendering and conserves battery.", "A high-priority version of `setTimeout()` for critical UI updates.", "A method to pause and resume CSS animations via JavaScript."],
+        "correct": 1,
+        "explanation": "`requestAnimationFrame()` is a browser API specifically designed for running animations smoothly. It schedules your animation function to be called right before the browser performs the next repaint, typically aiming for 60 frames per second. This leads to smoother animations, better performance, and improved battery life compared to using `setTimeout()` for animations, which isn't synchronized with the browser's repaint cycle."
       }
-    ],
-    "medium": [
-      {
-        "id": 61,
-        "question": "What is two-factor authentication?",
-        "options": ["Using two passwords", "Using two different login methods", "Using password and additional verification", "Using two browsers"],
-        "correct": 2,
-        "explanation": "Two-factor authentication (2FA) is a security process that requires two different authentication factors: something you know (password) and something you have (phone, token) or are (biometric)."
-      },
-      {
-        "id": 62,
-        "question": "What is a DDoS attack?",
-        "options": ["Data theft", "Distributed Denial of Service", "Direct Database Operation", "Digital Document Security"],
-        "correct": 1,
-        "explanation": "A DDoS (Distributed Denial of Service) attack attempts to make a service unavailable by overwhelming it with traffic from multiple sources."
-      },
-      {
-        "id": 63,
-        "question": "What is penetration testing?",
-        "options": ["Testing network speed", "Authorized testing for vulnerabilities", "Installing software", "Creating backups"],
-        "correct": 1,
-        "explanation": "Penetration testing is authorized testing of systems to find vulnerabilities that could be exploited by attackers."
-      },
-      {
-        "id": 64,
-        "question": "What is a botnet?",
-        "options": ["Network of infected computers", "Antivirus software", "Firewall system", "Encryption method"],
-        "correct": 0,
-        "explanation": "A botnet is a network of infected computers controlled remotely by cybercriminals to perform malicious activities."
-      },
-      {
-        "id": 65,
-        "question": "What is ransomware?",
-        "options": ["Free software", "Malware that encrypts files for ransom", "Antivirus software", "Network protocol"],
-        "correct": 1,
-        "explanation": "Ransomware is malicious software that encrypts a victim's files and demands payment for the decryption key."
-      },
-      {
-        "id": 121,
-        "question": "What is a honeypot in cybersecurity?",
-        "options": ["A sweet security system", "A decoy system to attract attackers", "A type of malware", "A password storage"],
-        "correct": 1,
-        "explanation": "A honeypot is a decoy system designed to attract and detect attackers."
-      },
-      {
-        "id": 122,
-        "question": "What is SQL injection?",
-        "options": ["A medical procedure", "A code injection attack on databases", "A type of encryption", "A network protocol"],
-        "correct": 1,
-        "explanation": "SQL injection is a code injection attack that targets databases by inserting malicious SQL statements."
-      },
-      {
-        "id": 123,
-        "question": "What is social media phishing?",
-        "options": ["Fishing on social media", "Fraudulent social media posts to steal information", "Social networking", "Media sharing"],
-        "correct": 1,
-        "explanation": "Social media phishing involves using fraudulent social media posts or messages to steal personal information."
-      },
-      {
-        "id": 124,
-        "question": "What is endpoint security?",
-        "options": ["Security at the end of roads", "Protecting end-user devices", "Final security check", "Network termination security"],
-        "correct": 1,
-        "explanation": "Endpoint security focuses on protecting end-user devices like computers, phones, and tablets."
-      },
-      {
-        "id": 125,
-        "question": "What is a security audit?",
-        "options": ["Financial audit", "Systematic evaluation of security measures", "Audio security", "Automated security"],
-        "correct": 1,
-        "explanation": "A security audit is a systematic evaluation of an organization's security measures and policies."
-      }
-    ],
-    "hard": [
-      {
-        "id": 66,
-        "question": "What is a zero-day exploit?",
-        "options": ["An exploit found on day zero", "An exploit with no patch available", "An exploit that takes zero days to execute", "An exploit that costs zero dollars"],
-        "correct": 1,
-        "explanation": "A zero-day exploit takes advantage of a security vulnerability that is unknown to the software vendor and for which no patch or fix has been released."
-      },
-      {
-        "id": 67,
-        "question": "What is the principle of least privilege?",
-        "options": ["Giving maximum access to all users", "Giving minimum necessary access", "Removing all privileges", "Sharing all passwords"],
-        "correct": 1,
-        "explanation": "The principle of least privilege means giving users only the minimum access rights needed to perform their job functions."
-      },
-      {
-        "id": 68,
-        "question": "What is a man-in-the-middle attack?",
-        "options": ["Physical assault", "Intercepting communications between two parties", "Password attack", "Virus infection"],
-        "correct": 1,
-        "explanation": "A man-in-the-middle attack occurs when an attacker secretly intercepts and potentially alters communications between two parties."
-      },
-      {
-        "id": 69,
-        "question": "What is PKI in cybersecurity?",
-        "options": ["Password Key Integration", "Public Key Infrastructure", "Private Key Installation", "Protected Key Interface"],
-        "correct": 1,
-        "explanation": "PKI (Public Key Infrastructure) is a framework that manages digital keys and certificates for secure communication."
-      },
-      {
-        "id": 70,
-        "question": "What is advanced persistent threat (APT)?",
-        "options": ["Simple malware", "Long-term targeted cyber attack", "Antivirus feature", "Network protocol"],
-        "correct": 1,
-        "explanation": "An Advanced Persistent Threat (APT) is a prolonged and targeted cyber attack where attackers gain access to a network and remain undetected for extended periods."
-      },
-      {
-        "id": 126,
-        "question": "What is cryptographic hashing?",
-        "options": ["Breaking encryption", "One-way function that converts data to fixed-size hash", "Symmetric encryption", "Password storage"],
-        "correct": 1,
-        "explanation": "Cryptographic hashing is a one-way function that converts input data into a fixed-size hash value."
-      },
-      {
-        "id": 127,
-        "question": "What is a digital certificate?",
-        "options": ["Online degree", "Electronic document that proves identity", "Digital signature", "Encrypted file"],
-        "correct": 1,
-        "explanation": "A digital certificate is an electronic document that uses a digital signature to bind a public key with an identity."
-      },
-      {
-        "id": 128,
-        "question": "What is threat modeling?",
-        "options": ["Creating threat scenarios", "Systematic approach to identify security threats", "Modeling software", "Threat simulation"],
-        "correct": 1,
-        "explanation": "Threat modeling is a systematic approach to identify, understand, and address potential security threats."
-      },
-      {
-        "id": 129,
-        "question": "What is behavioral analytics in cybersecurity?",
-        "options": ["Analyzing user behavior", "Detecting anomalies in system behavior", "Psychology study", "Performance analysis"],
-        "correct": 1,
-        "explanation": "Behavioral analytics involves detecting anomalies in system or user behavior that might indicate security threats."
-      },
-      {
-        "id": 130,
-        "question": "What is incident response?",
-        "options": ["Responding to emails", "Systematic approach to handle security incidents", "Customer service", "Technical support"],
-        "correct": 1,
-        "explanation": "Incident response is a systematic approach to handle and manage security incidents and breaches."
-      }
-    ]
+      ]
+    },
+    "dispatch": {
+      "easy": [
+        {
+          "id": 31,
+          "question": "What does ETA stand for in logistics?",
+          "options": ["Estimated Time of Arrival", "Expected Transport Allocation", "Emergency Transport Alert", "Efficient Traffic Analysis"],
+          "correct": 0,
+          "explanation": "ETA stands for Estimated Time of Arrival. It represents the expected time when a shipment, vehicle, or person will arrive at a destination."
+        },
+        {
+          "id": 32,
+          "question": "Which is the most common method of freight transportation?",
+          "options": ["Air", "Rail", "Road", "Sea"],
+          "correct": 2,
+          "explanation": "Road transportation is the most common method for freight due to its flexibility, door-to-door service capability, and extensive road networks."
+        },
+        {
+          "id": 33,
+          "question": "What does GPS stand for?",
+          "options": ["Global Positioning System", "General Purpose System", "Geographic Planning Service", "Global Planning System"],
+          "correct": 0,
+          "explanation": "GPS stands for Global Positioning System, a satellite-based navigation system."
+        },
+        {
+          "id": 34,
+          "question": "What is a delivery route?",
+          "options": ["A type of vehicle", "A planned path for deliveries", "A shipping container", "A payment method"],
+          "correct": 1,
+          "explanation": "A delivery route is a planned path or sequence of stops for making deliveries efficiently."
+        },
+        {
+          "id": 35,
+          "question": "What does COD stand for in shipping?",
+          "options": ["Cash on Delivery", "Cost of Delivery", "Certificate of Delivery", "Customs on Demand"],
+          "correct": 0,
+          "explanation": "COD stands for Cash on Delivery, a payment method where payment is collected upon delivery."
+        },
+        {
+          "id": 36,
+          "question": "What is freight?",
+          "options": ["A type of vehicle", "Goods transported in bulk", "A shipping document", "A payment fee"],
+          "correct": 1,
+          "explanation": "Freight refers to goods or cargo transported in bulk by truck, train, ship, or aircraft."
+        },
+        {
+          "id": 37,
+          "question": "What is a dispatch center?",
+          "options": ["A warehouse", "A central location for coordinating operations", "A type of vehicle", "A shipping method"],
+          "correct": 1,
+          "explanation": "A dispatch center is a central location where operations are coordinated and vehicles/personnel are assigned to tasks."
+        },
+        {
+          "id": 38,
+          "question": "What does LTL stand for in shipping?",
+          "options": ["Less Than Load", "Large Transport Load", "Long Term Lease", "Limited Time License"],
+          "correct": 0,
+          "explanation": "LTL stands for Less Than Truckload, referring to shipments that don't require a full truck."
+        },
+        {
+          "id": 39,
+          "question": "What is a manifest in shipping?",
+          "options": ["A type of container", "A document listing cargo details", "A shipping route", "A payment receipt"],
+          "correct": 1,
+          "explanation": "A manifest is a document that lists the details of cargo being transported."
+        },
+        {
+          "id": 40,
+          "question": "What does DOT stand for in transportation?",
+          "options": ["Department of Transportation", "Document of Transit", "Delivery on Time", "Direct Operations Team"],
+          "correct": 0,
+          "explanation": "DOT stands for Department of Transportation, the government agency that regulates transportation."
+        },
+        {
+          "id": 101,
+          "question": "What is a warehouse?",
+          "options": ["A type of vehicle", "A storage facility for goods", "A shipping route", "A delivery method"],
+          "correct": 1,
+          "explanation": "A warehouse is a large building used for storing goods and materials."
+        },
+        {
+          "id": 102,
+          "question": "What does FOB stand for in shipping?",
+          "options": ["Free on Board", "Freight on Board", "First on Board", "Final on Board"],
+          "correct": 0,
+          "explanation": "FOB stands for Free on Board, indicating when ownership and liability transfer."
+        },
+        {
+          "id": 103,
+          "question": "What is a pallet?",
+          "options": ["A shipping document", "A flat platform for stacking goods", "A type of vehicle", "A payment method"],
+          "correct": 1,
+          "explanation": "A pallet is a flat platform used for stacking and transporting goods."
+        },
+        {
+          "id": 104,
+          "question": "What is cargo?",
+          "options": ["A type of ship", "Goods being transported", "A shipping route", "A delivery schedule"],
+          "correct": 1,
+          "explanation": "Cargo refers to goods or products being transported by various means."
+        },
+        {
+          "id": 105,
+          "question": "What does RFID stand for?",
+          "options": ["Radio Frequency Identification", "Rapid Freight Information Data", "Real-time Fleet Information Display", "Remote Facility Identification"],
+          "correct": 0,
+          "explanation": "RFID stands for Radio Frequency Identification, used for tracking items."
+        }
+      ],
+      "medium": [
+        {
+          "id": 41,
+          "question": "What is a Bill of Lading?",
+          "options": ["A payment receipt", "A shipping document", "An insurance policy", "A driver's license"],
+          "correct": 1,
+          "explanation": "A Bill of Lading is a legal document that serves as a receipt for cargo and a contract for transportation. It details the type, quantity, and destination of the goods being carried."
+        },
+        {
+          "id": 42,
+          "question": "What is deadhead in transportation?",
+          "options": ["A broken vehicle", "Operating a vehicle without cargo", "Maximum weight limit", "Emergency stop"],
+          "correct": 1,
+          "explanation": "Deadhead refers to operating a vehicle without cargo or passengers, typically when returning from a delivery."
+        },
+        {
+          "id": 43,
+          "question": "What is cross-docking?",
+          "options": ["Loading multiple vehicles", "Transferring goods directly between vehicles", "Vehicle maintenance", "Route planning"],
+          "correct": 1,
+          "explanation": "Cross-docking is the practice of unloading goods from incoming vehicles and loading them directly onto outbound vehicles with minimal storage time."
+        },
+        {
+          "id": 44,
+          "question": "What does EDI stand for in logistics?",
+          "options": ["Electronic Data Interchange", "Emergency Dispatch Information", "Efficient Delivery Index", "Electronic Document Identification"],
+          "correct": 0,
+          "explanation": "EDI stands for Electronic Data Interchange, a system for exchanging business documents electronically."
+        },
+        {
+          "id": 45,
+          "question": "What is a freight broker?",
+          "options": ["A vehicle driver", "An intermediary between shippers and carriers", "A warehouse manager", "A customs officer"],
+          "correct": 1,
+          "explanation": "A freight broker is an intermediary who arranges transportation between shippers and carriers."
+        },
+        {
+          "id": 106,
+          "question": "What is inventory management?",
+          "options": ["Counting money", "Tracking and controlling stock levels", "Managing employees", "Planning routes"],
+          "correct": 1,
+          "explanation": "Inventory management involves tracking and controlling stock levels to optimize operations."
+        },
+        {
+          "id": 107,
+          "question": "What is a distribution center?",
+          "options": ["A type of vehicle", "A facility for storing and shipping products", "A software system", "A payment method"],
+          "correct": 1,
+          "explanation": "A distribution center is a facility used for storing and shipping products to customers."
+        },
+        {
+          "id": 108,
+          "question": "What does TMS stand for in logistics?",
+          "options": ["Transportation Management System", "Total Management Solution", "Traffic Monitoring Service", "Transport Maintenance System"],
+          "correct": 0,
+          "explanation": "TMS stands for Transportation Management System, software for managing transportation operations."
+        },
+        {
+          "id": 109,
+          "question": "What is intermodal transportation?",
+          "options": ["Using one mode of transport", "Using multiple modes of transport", "Emergency transportation", "Local delivery only"],
+          "correct": 1,
+          "explanation": "Intermodal transportation involves using multiple modes of transport for a single journey."
+        },
+        {
+          "id": 110,
+          "question": "What is a shipping manifest?",
+          "options": ["A vehicle inspection", "A detailed list of cargo", "A payment receipt", "A route map"],
+          "correct": 1,
+          "explanation": "A shipping manifest is a detailed list of all cargo being transported."
+        }
+      ],
+      "hard": [
+        {
+          "id": 46,
+          "question": "What is the primary purpose of route optimization in dispatch?",
+          "options": ["Reduce fuel costs", "Minimize delivery time", "Improve customer satisfaction", "All of the above"],
+          "correct": 3,
+          "explanation": "Route optimization aims to find the most efficient routes to reduce fuel costs, minimize delivery time, and improve customer satisfaction by ensuring timely deliveries."
+        },
+        {
+          "id": 47,
+          "question": "What is fleet management software primarily used for?",
+          "options": ["Vehicle maintenance only", "Comprehensive vehicle and driver management", "Route planning only", "Fuel monitoring only"],
+          "correct": 1,
+          "explanation": "Fleet management software provides comprehensive tools for managing vehicles, drivers, routes, maintenance, and operational efficiency."
+        },
+        {
+          "id": 48,
+          "question": "What is the difference between FTL and LTL shipping?",
+          "options": ["No difference", "FTL uses full truck capacity, LTL shares truck space", "FTL is faster, LTL is cheaper", "FTL is for international, LTL is domestic"],
+          "correct": 1,
+          "explanation": "FTL (Full Truckload) uses the entire truck capacity for one shipment, while LTL (Less Than Truckload) combines multiple smaller shipments in one truck."
+        },
+        {
+          "id": 49,
+          "question": "What is supply chain visibility?",
+          "options": ["Seeing physical goods", "Real-time tracking and monitoring of supply chain operations", "Warehouse lighting", "Vehicle inspection"],
+          "correct": 1,
+          "explanation": "Supply chain visibility refers to the ability to track and monitor goods, information, and processes throughout the entire supply chain in real-time."
+        },
+        {
+          "id": 50,
+          "question": "What is just-in-time (JIT) delivery?",
+          "options": ["Delivering at any time", "Delivering goods exactly when needed", "Fast delivery service", "Emergency delivery"],
+          "correct": 1,
+          "explanation": "Just-in-time (JIT) delivery is a strategy where goods are delivered exactly when they are needed, minimizing inventory costs and storage requirements."
+        },
+        {
+          "id": 111,
+          "question": "What is supply chain optimization?",
+          "options": ["Making supply chains longer", "Improving efficiency and reducing costs", "Adding more suppliers", "Eliminating technology"],
+          "correct": 1,
+          "explanation": "Supply chain optimization involves improving efficiency and reducing costs across the entire supply chain."
+        },
+        {
+          "id": 112,
+          "question": "What is vendor-managed inventory (VMI)?",
+          "options": ["Customers manage vendor inventory", "Vendors manage customer inventory", "No inventory management", "Automated inventory only"],
+          "correct": 1,
+          "explanation": "VMI is a system where vendors manage their customers' inventory levels."
+        },
+        {
+          "id": 113,
+          "question": "What is the purpose of load planning in logistics?",
+          "options": ["Planning employee workload", "Optimizing cargo arrangement", "Planning building loads", "Electrical load planning"],
+          "correct": 1,
+          "explanation": "Load planning involves optimizing how cargo is arranged and distributed in transportation vehicles."
+        },
+        {
+          "id": 114,
+          "question": "What is reverse logistics?",
+          "options": ["Driving in reverse", "Managing returns and recycling", "Backward route planning", "Reverse engineering"],
+          "correct": 1,
+          "explanation": "Reverse logistics involves managing the flow of products from customers back to manufacturers for returns, recycling, or disposal."
+        },
+        {
+          "id": 115,
+          "question": "What is demand forecasting in supply chain management?",
+          "options": ["Predicting weather", "Predicting customer demand", "Forecasting employee needs", "Predicting vehicle breakdowns"],
+          "correct": 1,
+          "explanation": "Demand forecasting involves predicting future customer demand to optimize inventory and production planning."
+        }
+      ]
+    },
+    "cybersecurity": {
+      "easy": [
+        {
+          "id": 51,
+          "question": "What does VPN stand for?",
+          "options": ["Virtual Private Network", "Very Private Network", "Verified Protection Network", "Virtual Protection Node"],
+          "correct": 0,
+          "explanation": "VPN stands for Virtual Private Network. It creates a secure, encrypted connection over the internet between your device and a remote server."
+        },
+        {
+          "id": 52,
+          "question": "What is phishing?",
+          "options": ["A type of fishing", "A method to catch malware", "A social engineering attack", "A network protocol"],
+          "correct": 2,
+          "explanation": "Phishing is a social engineering attack where attackers impersonate legitimate organizations to steal sensitive information like passwords, credit card numbers, or personal data."
+        },
+        {
+          "id": 53,
+          "question": "What is malware?",
+          "options": ["Good software", "Malicious software", "Hardware component", "Network protocol"],
+          "correct": 1,
+          "explanation": "Malware is malicious software designed to damage, disrupt, or gain unauthorized access to computer systems."
+        },
+        {
+          "id": 54,
+          "question": "What is a firewall?",
+          "options": ["A physical wall", "Network security system", "Antivirus software", "Password manager"],
+          "correct": 1,
+          "explanation": "A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on security rules."
+        },
+        {
+          "id": 55,
+          "question": "What does SSL stand for?",
+          "options": ["Secure Socket Layer", "System Security Lock", "Safe Site Link", "Secure Server Login"],
+          "correct": 0,
+          "explanation": "SSL stands for Secure Socket Layer, a protocol for establishing encrypted links between web servers and browsers."
+        },
+        {
+          "id": 56,
+          "question": "What is a strong password?",
+          "options": ["Your name", "123456", "A complex mix of characters, numbers, and symbols", "password"],
+          "correct": 2,
+          "explanation": "A strong password is a complex combination of uppercase and lowercase letters, numbers, and special characters."
+        },
+        {
+          "id": 57,
+          "question": "What is social engineering?",
+          "options": ["Building social networks", "Manipulating people to divulge information", "Software engineering", "Network engineering"],
+          "correct": 1,
+          "explanation": "Social engineering is the practice of manipulating people to divulge confidential information or perform actions that compromise security."
+        },
+        {
+          "id": 58,
+          "question": "What is encryption?",
+          "options": ["Deleting data", "Converting data into code", "Backing up data", "Organizing data"],
+          "correct": 1,
+          "explanation": "Encryption is the process of converting readable data into an encoded format that can only be read with the correct decryption key."
+        },
+        {
+          "id": 59,
+          "question": "What is antivirus software?",
+          "options": ["Software that creates viruses", "Software that detects and removes malware", "Software for creating backups", "Software for browsing the internet"],
+          "correct": 1,
+          "explanation": "Antivirus software is designed to detect, prevent, and remove malicious software from computer systems."
+        },
+        {
+          "id": 60,
+          "question": "What is a virus in cybersecurity?",
+          "options": ["A biological virus", "Malicious code that replicates itself", "Network hardware", "Security protocol"],
+          "correct": 1,
+          "explanation": "In cybersecurity, a virus is malicious code that can replicate itself and spread to other programs or systems."
+        },
+        {
+          "id": 116,
+          "question": "What is a trojan horse in cybersecurity?",
+          "options": ["A wooden horse", "Malware disguised as legitimate software", "A security tool", "A network device"],
+          "correct": 1,
+          "explanation": "A trojan horse is malware that disguises itself as legitimate software to trick users into installing it."
+        },
+        {
+          "id": 117,
+          "question": "What is spyware?",
+          "options": ["Software for spies", "Malware that secretly gathers information", "Antivirus software", "Gaming software"],
+          "correct": 1,
+          "explanation": "Spyware is malicious software that secretly gathers information about users without their knowledge."
+        },
+        {
+          "id": 118,
+          "question": "What is a password manager?",
+          "options": ["A person who manages passwords", "Software that stores and manages passwords", "A type of malware", "A network security device"],
+          "correct": 1,
+          "explanation": "A password manager is software that securely stores and manages passwords for various accounts."
+        },
+        {
+          "id": 119,
+          "question": "What is adware?",
+          "options": ["Software that displays advertisements", "Antivirus software", "Hardware component", "Network protocol"],
+          "correct": 0,
+          "explanation": "Adware is software that automatically displays or downloads advertising content."
+        },
+        {
+          "id": 120,
+          "question": "What is a computer worm?",
+          "options": ["A physical worm", "Self-replicating malware", "A security tool", "A network cable"],
+          "correct": 1,
+          "explanation": "A computer worm is self-replicating malware that spreads across networks without user intervention."
+        }
+      ],
+      "medium": [
+        {
+          "id": 61,
+          "question": "What is two-factor authentication?",
+          "options": ["Using two passwords", "Using two different login methods", "Using password and additional verification", "Using two browsers"],
+          "correct": 2,
+          "explanation": "Two-factor authentication (2FA) is a security process that requires two different authentication factors: something you know (password) and something you have (phone, token) or are (biometric)."
+        },
+        {
+          "id": 62,
+          "question": "What is a DDoS attack?",
+          "options": ["Data theft", "Distributed Denial of Service", "Direct Database Operation", "Digital Document Security"],
+          "correct": 1,
+          "explanation": "A DDoS (Distributed Denial of Service) attack attempts to make a service unavailable by overwhelming it with traffic from multiple sources."
+        },
+        {
+          "id": 63,
+          "question": "What is penetration testing?",
+          "options": ["Testing network speed", "Authorized testing for vulnerabilities", "Installing software", "Creating backups"],
+          "correct": 1,
+          "explanation": "Penetration testing is authorized testing of systems to find vulnerabilities that could be exploited by attackers."
+        },
+        {
+          "id": 64,
+          "question": "What is a botnet?",
+          "options": ["Network of infected computers", "Antivirus software", "Firewall system", "Encryption method"],
+          "correct": 0,
+          "explanation": "A botnet is a network of infected computers controlled remotely by cybercriminals to perform malicious activities."
+        },
+        {
+          "id": 65,
+          "question": "What is ransomware?",
+          "options": ["Free software", "Malware that encrypts files for ransom", "Antivirus software", "Network protocol"],
+          "correct": 1,
+          "explanation": "Ransomware is malicious software that encrypts a victim's files and demands payment for the decryption key."
+        },
+        {
+          "id": 121,
+          "question": "What is a honeypot in cybersecurity?",
+          "options": ["A sweet security system", "A decoy system to attract attackers", "A type of malware", "A password storage"],
+          "correct": 1,
+          "explanation": "A honeypot is a decoy system designed to attract and detect attackers."
+        },
+        {
+          "id": 122,
+          "question": "What is SQL injection?",
+          "options": ["A medical procedure", "A code injection attack on databases", "A type of encryption", "A network protocol"],
+          "correct": 1,
+          "explanation": "SQL injection is a code injection attack that targets databases by inserting malicious SQL statements."
+        },
+        {
+          "id": 123,
+          "question": "What is social media phishing?",
+          "options": ["Fishing on social media", "Fraudulent social media posts to steal information", "Social networking", "Media sharing"],
+          "correct": 1,
+          "explanation": "Social media phishing involves using fraudulent social media posts or messages to steal personal information."
+        },
+        {
+          "id": 124,
+          "question": "What is endpoint security?",
+          "options": ["Security at the end of roads", "Protecting end-user devices", "Final security check", "Network termination security"],
+          "correct": 1,
+          "explanation": "Endpoint security focuses on protecting end-user devices like computers, phones, and tablets."
+        },
+        {
+          "id": 125,
+          "question": "What is a security audit?",
+          "options": ["Financial audit", "Systematic evaluation of security measures", "Audio security", "Automated security"],
+          "correct": 1,
+          "explanation": "A security audit is a systematic evaluation of an organization's security measures and policies."
+        }
+      ],
+      "hard": [
+        {
+          "id": 66,
+          "question": "What is a zero-day exploit?",
+          "options": ["An exploit found on day zero", "An exploit with no patch available", "An exploit that takes zero days to execute", "An exploit that costs zero dollars"],
+          "correct": 1,
+          "explanation": "A zero-day exploit takes advantage of a security vulnerability that is unknown to the software vendor and for which no patch or fix has been released."
+        },
+        {
+          "id": 67,
+          "question": "What is the principle of least privilege?",
+          "options": ["Giving maximum access to all users", "Giving minimum necessary access", "Removing all privileges", "Sharing all passwords"],
+          "correct": 1,
+          "explanation": "The principle of least privilege means giving users only the minimum access rights needed to perform their job functions."
+        },
+        {
+          "id": 68,
+          "question": "What is a man-in-the-middle attack?",
+          "options": ["Physical assault", "Intercepting communications between two parties", "Password attack", "Virus infection"],
+          "correct": 1,
+          "explanation": "A man-in-the-middle attack occurs when an attacker secretly intercepts and potentially alters communications between two parties."
+        },
+        {
+          "id": 69,
+          "question": "What is PKI in cybersecurity?",
+          "options": ["Password Key Integration", "Public Key Infrastructure", "Private Key Installation", "Protected Key Interface"],
+          "correct": 1,
+          "explanation": "PKI (Public Key Infrastructure) is a framework that manages digital keys and certificates for secure communication."
+        },
+        {
+          "id": 70,
+          "question": "What is advanced persistent threat (APT)?",
+          "options": ["Simple malware", "Long-term targeted cyber attack", "Antivirus feature", "Network protocol"],
+          "correct": 1,
+          "explanation": "An Advanced Persistent Threat (APT) is a prolonged and targeted cyber attack where attackers gain access to a network and remain undetected for extended periods."
+        },
+        {
+          "id": 126,
+          "question": "What is cryptographic hashing?",
+          "options": ["Breaking encryption", "One-way function that converts data to fixed-size hash", "Symmetric encryption", "Password storage"],
+          "correct": 1,
+          "explanation": "Cryptographic hashing is a one-way function that converts input data into a fixed-size hash value."
+        },
+        {
+          "id": 127,
+          "question": "What is a digital certificate?",
+          "options": ["Online degree", "Electronic document that proves identity", "Digital signature", "Encrypted file"],
+          "correct": 1,
+          "explanation": "A digital certificate is an electronic document that uses a digital signature to bind a public key with an identity."
+        },
+        {
+          "id": 128,
+          "question": "What is threat modeling?",
+          "options": ["Creating threat scenarios", "Systematic approach to identify security threats", "Modeling software", "Threat simulation"],
+          "correct": 1,
+          "explanation": "Threat modeling is a systematic approach to identify, understand, and address potential security threats."
+        },
+        {
+          "id": 129,
+          "question": "What is behavioral analytics in cybersecurity?",
+          "options": ["Analyzing user behavior", "Detecting anomalies in system behavior", "Psychology study", "Performance analysis"],
+          "correct": 1,
+          "explanation": "Behavioral analytics involves detecting anomalies in system or user behavior that might indicate security threats."
+        },
+        {
+          "id": 130,
+          "question": "What is incident response?",
+          "options": ["Responding to emails", "Systematic approach to handle security incidents", "Customer service", "Technical support"],
+          "correct": 1,
+          "explanation": "Incident response is a systematic approach to handle and manage security incidents and breaches."
+        }
+      ]
+    }
+
   }
-}
+  

@@ -1,0 +1,938 @@
+
+{
+    "web": {
+      "easy": [
+        {
+          "id": 1,
+          "question": "What does HTML stand for?",
+          "options": ["Hyper Text Markup Language", "High Tech Modern Language", "Home Tool Markup Language", "Hyperlink and Text Markup Language"],
+          "correct": 0,
+          "explanation": "HTML stands for Hyper Text Markup Language. It is the standard markup language used to create web pages and web applications."
+        },
+        {
+          "id": 2,
+          "question": "Which CSS property is used to change the text color?",
+          "options": ["font-color", "text-color", "color", "foreground-color"],
+          "correct": 2,
+          "explanation": "The 'color' property in CSS is used to set the color of text. It can accept various color values like hex codes, RGB values, or color names."
+        },
+        {
+          "id": 3,
+          "question": "What does CSS stand for?",
+          "options": ["Creative Style Sheets", "Cascading Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"],
+          "correct": 1,
+          "explanation": "CSS stands for Cascading Style Sheets. It describes how HTML elements are to be displayed on screen, paper, or in other media."
+        },
+        {
+          "id": 4,
+          "question": "Which HTML tag is used to create a hyperlink?",
+          "options": ["<link>", "<a>", "<href>", "<url>"],
+          "correct": 1,
+          "explanation": "The <a> tag (anchor tag) is used to create hyperlinks in HTML."
+        },
+        {
+          "id": 5,
+          "question": "What is the correct HTML element for inserting a line break?",
+          "options": ["<break>", "<lb>", "<br>", "<newline>"],
+          "correct": 2,
+          "explanation": "The <br> tag is used to insert a line break in HTML."
+        },
+        {
+          "id": 6,
+          "question": "Which attribute is used to provide alternative text for an image?",
+          "options": ["title", "alt", "src", "description"],
+          "correct": 1,
+          "explanation": "The 'alt' attribute provides alternative text for images, which is important for accessibility."
+        },
+        {
+          "id": 7,
+          "question": "What is the largest heading element in HTML?",
+          "options": ["<h1>", "<h6>", "<header>", "<heading>"],
+          "correct": 0,
+          "explanation": "The <h1> element represents the largest and most important heading in HTML."
+        },
+        {
+          "id": 8,
+          "question": "Which CSS property is used to change the background color?",
+          "options": ["bgcolor", "background-color", "color", "bg-color"],
+          "correct": 1,
+          "explanation": "The 'background-color' property is used to set the background color of an element."
+        },
+        {
+          "id": 9,
+          "question": "What does the HTML <title> element define?",
+          "options": ["The title of the page in the browser tab", "A heading on the page", "The main content", "A navigation menu"],
+          "correct": 0,
+          "explanation": "The <title> element defines the title that appears in the browser tab or window title bar."
+        },
+        {
+          "id": 10,
+          "question": "Which HTML attribute specifies an inline style?",
+          "options": ["class", "style", "css", "styles"],
+          "correct": 1,
+          "explanation": "The 'style' attribute is used to apply inline CSS styles to HTML elements."
+        },
+        {
+          "id": 11,
+          "question": "What is the correct HTML for creating a checkbox?",
+          "options": ["<input type='check'>", "<input type='checkbox'>", "<checkbox>", "<check>"],
+          "correct": 1,
+          "explanation": "The correct syntax is <input type='checkbox'> to create a checkbox in HTML."
+        },
+        {
+          "id": 12,
+          "question": "Which CSS property controls the text size?",
+          "options": ["font-size", "text-size", "font-style", "text-style"],
+          "correct": 0,
+          "explanation": "The 'font-size' property controls the size of text in CSS."
+        },
+        {
+          "id": 13,
+          "question": "What is the correct HTML for inserting an image?",
+          "options": ["<image src='image.gif'>", "<img href='image.gif'>", "<img src='image.gif'>", "<picture src='image.gif'>"],
+          "correct": 2,
+          "explanation": "The correct syntax is <img src='image.gif'> to insert an image in HTML."
+        },
+        {
+          "id": 14,
+          "question": "Which HTML element is used to specify a footer?",
+          "options": ["<bottom>", "<footer>", "<section>", "<end>"],
+          "correct": 1,
+          "explanation": "The <footer> element is used to define a footer for a document or section."
+        },
+        {
+          "id": 15,
+          "question": "What does WWW stand for?",
+          "options": ["World Wide Web", "Wide World Web", "Web World Wide", "World Web Wide"],
+          "correct": 0,
+          "explanation": "WWW stands for World Wide Web."
+        },
+        {
+          "id": 71,
+          "question": "Which HTML tag is used to create an ordered list?",
+          "options": ["<ul>", "<ol>", "<list>", "<order>"],
+          "correct": 1,
+          "explanation": "The <ol> tag creates an ordered (numbered) list in HTML."
+        },
+        {
+          "id": 72,
+          "question": "What is the correct HTML for creating a text input field?",
+          "options": ["<input type='text'>", "<textfield>", "<text>", "<input text>"],
+          "correct": 0,
+          "explanation": "The correct syntax is <input type='text'> to create a text input field."
+        },
+        {
+          "id": 73,
+          "question": "Which CSS property is used to make text bold?",
+          "options": ["font-weight", "text-bold", "bold", "font-bold"],
+          "correct": 0,
+          "explanation": "The 'font-weight' property is used to make text bold in CSS."
+        },
+        {
+          "id": 74,
+          "question": "What is the HTML tag for creating a table?",
+          "options": ["<table>", "<tab>", "<tbl>", "<grid>"],
+          "correct": 0,
+          "explanation": "The <table> tag is used to create tables in HTML."
+        },
+        {
+          "id": 75,
+          "question": "Which attribute is used to merge table cells horizontally?",
+          "options": ["rowspan", "colspan", "merge", "span"],
+          "correct": 1,
+          "explanation": "The 'colspan' attribute is used to merge table cells horizontally."
+        },
+        {
+          "id": 76,
+          "question": "What is the HTML tag for creating a form?",
+          "options": ["<form>", "<input>", "<field>", "<submit>"],
+          "correct": 0,
+          "explanation": "The <form> tag is used to create forms in HTML."
+        },
+        {
+          "id": 77,
+          "question": "Which CSS property is used to center text?",
+          "options": ["text-center", "align", "text-align", "center"],
+          "correct": 2,
+          "explanation": "The 'text-align' property is used to center text in CSS."
+        },
+        {
+          "id": 78,
+          "question": "What is the HTML comment syntax?",
+          "options": ["// comment", "/* comment */", "<!-- comment -->", "# comment"],
+          "correct": 2,
+          "explanation": "HTML comments use the <!-- comment --> syntax."
+        },
+        {
+          "id": 79,
+          "question": "Which HTML element represents a paragraph?",
+          "options": ["<p>", "<para>", "<paragraph>", "<text>"],
+          "correct": 0,
+          "explanation": "The <p> element represents a paragraph in HTML."
+        },
+        {
+          "id": 80,
+          "question": "What is the correct HTML for creating a dropdown list?",
+          "options": ["<select>", "<dropdown>", "<list>", "<options>"],
+          "correct": 0,
+          "explanation": "The <select> element is used to create dropdown lists in HTML."
+        },
+        {
+          "id": 81,
+          "question": "Which CSS property controls spacing between letters?",
+          "options": ["letter-spacing", "text-spacing", "char-spacing", "font-spacing"],
+          "correct": 0,
+          "explanation": "The 'letter-spacing' property controls the spacing between letters."
+        },
+        {
+          "id": 82,
+          "question": "What is the HTML tag for creating a division or section?",
+          "options": ["<div>", "<section>", "<part>", "<block>"],
+          "correct": 0,
+          "explanation": "The <div> tag is commonly used to create divisions or sections in HTML."
+        },
+        {
+          "id": 83,
+          "question": "Which attribute specifies the URL of a hyperlink?",
+          "options": ["src", "href", "url", "link"],
+          "correct": 1,
+          "explanation": "The 'href' attribute specifies the URL of a hyperlink."
+        },
+        {
+          "id": 84,
+          "question": "What is the HTML tag for creating emphasis (italic text)?",
+          "options": ["<i>", "<em>", "<italic>", "<emphasis>"],
+          "correct": 1,
+          "explanation": "The <em> tag is used for emphasis (usually displayed as italic)."
+        },
+        {
+          "id": 85,
+          "question": "Which CSS property is used to hide an element?",
+          "options": ["display", "visibility", "hide", "show"],
+          "correct": 0,
+          "explanation": "The 'display' property (set to 'none') is commonly used to hide elements."
+        }
+      ],
+      "medium": [
+        {
+          "id": 16,
+          "question": "Which JavaScript method is used to add an element to the end of an array?",
+          "options": ["push()", "add()", "append()", "insert()"],
+          "correct": 0,
+          "explanation": "The push() method adds one or more elements to the end of an array and returns the new length of the array."
+        },
+        {
+          "id": 17,
+          "question": "What is the correct way to declare a JavaScript variable?",
+          "options": ["var name;", "variable name;", "v name;", "declare name;"],
+          "correct": 0,
+          "explanation": "In JavaScript, variables can be declared using 'var', 'let', or 'const' keywords. 'var name;' is the traditional way to declare a variable."
+        },
+        {
+          "id": 18,
+          "question": "Which operator is used to assign a value to a variable?",
+          "options": ["*", "=", "x", "-"],
+          "correct": 1,
+          "explanation": "The = operator is used to assign values to variables in JavaScript."
+        },
+        {
+          "id": 19,
+          "question": "What will the following code return: Boolean(10 > 9)",
+          "options": ["true", "false", "NaN", "undefined"],
+          "correct": 0,
+          "explanation": "Boolean(10 > 9) returns true because 10 is greater than 9."
+        },
+        {
+          "id": 20,
+          "question": "Which event occurs when the user clicks on an HTML element?",
+          "options": ["onchange", "onclick", "onmouseclick", "onmouseover"],
+          "correct": 1,
+          "explanation": "The onclick event occurs when the user clicks on an HTML element."
+        },
+        {
+          "id": 21,
+          "question": "How do you write 'Hello World' in an alert box?",
+          "options": ["alertBox('Hello World');", "msg('Hello World');", "alert('Hello World');", "msgBox('Hello World');"],
+          "correct": 2,
+          "explanation": "The alert() function is used to display an alert box with a message."
+        },
+        {
+          "id": 22,
+          "question": "How do you create a function in JavaScript?",
+          "options": ["function = myFunction() {}", "function myFunction() {}", "create myFunction() {}", "function:myFunction() {}"],
+          "correct": 1,
+          "explanation": "Functions in JavaScript are created using the 'function' keyword followed by the function name."
+        },
+        {
+          "id": 23,
+          "question": "How do you call a function named 'myFunction'?",
+          "options": ["call function myFunction()", "call myFunction()", "myFunction()", "execute myFunction()"],
+          "correct": 2,
+          "explanation": "Functions are called by writing the function name followed by parentheses."
+        },
+        {
+          "id": 24,
+          "question": "How to write an IF statement in JavaScript?",
+          "options": ["if i = 5 then", "if i == 5 then", "if (i == 5)", "if i = 5"],
+          "correct": 2,
+          "explanation": "IF statements in JavaScript use the syntax: if (condition) {...}"
+        },
+        {
+          "id": 25,
+          "question": "Which method removes the last element from an array?",
+          "options": ["pop()", "remove()", "delete()", "last()"],
+          "correct": 0,
+          "explanation": "The pop() method removes and returns the last element from an array."
+        },
+        {
+          "id": 86,
+          "question": "What is the difference between 'let' and 'var' in JavaScript?",
+          "options": ["No difference", "let has block scope, var has function scope", "var is newer", "let is faster"],
+          "correct": 1,
+          "explanation": "'let' has block scope while 'var' has function scope, making 'let' more predictable."
+        },
+        {
+          "id": 87,
+          "question": "Which method is used to remove the first element from an array?",
+          "options": ["shift()", "unshift()", "pop()", "remove()"],
+          "correct": 0,
+          "explanation": "The shift() method removes and returns the first element from an array."
+        },
+        {
+          "id": 88,
+          "question": "What does JSON stand for?",
+          "options": ["JavaScript Object Notation", "Java Standard Object Notation", "JavaScript Organized Notation", "Java Script Object Network"],
+          "correct": 0,
+          "explanation": "JSON stands for JavaScript Object Notation, a lightweight data interchange format."
+        },
+        {
+          "id": 89,
+          "question": "Which CSS unit is relative to the font size of the element?",
+          "options": ["px", "em", "pt", "in"],
+          "correct": 1,
+          "explanation": "The 'em' unit is relative to the font size of the element."
+        },
+        {
+          "id": 90,
+          "question": "What is the CSS property used to create rounded corners?",
+          "options": ["corner-radius", "border-radius", "round-corner", "border-round"],
+          "correct": 1,
+          "explanation": "The 'border-radius' property is used to create rounded corners."
+        },
+        {
+          "id": 91,
+          "question": "Which JavaScript method converts a string to an integer?",
+          "options": ["parseInt()", "parseFloat()", "toInt()", "convert()"],
+          "correct": 0,
+          "explanation": "The parseInt() method converts a string to an integer."
+        },
+        {
+          "id": 92,
+          "question": "What is the CSS display property value that makes an element behave like a table?",
+          "options": ["table", "grid", "flex", "block"],
+          "correct": 0,
+          "explanation": "The 'table' value makes an element behave like a table element."
+        },
+        {
+          "id": 93,
+          "question": "Which HTML5 element is used for navigation links?",
+          "options": ["<nav>", "<navigation>", "<menu>", "<links>"],
+          "correct": 0,
+          "explanation": "The <nav> element is used to define navigation links in HTML5."
+        },
+        {
+          "id": 94,
+          "question": "What is the JavaScript operator for strict inequality?",
+          "options": ["!=", "!==", "<>", "=/="],
+          "correct": 1,
+          "explanation": "The !== operator checks for strict inequality (value and type)."
+        },
+        {
+          "id": 95,
+          "question": "Which CSS property is used to control the stacking order of elements?",
+          "options": ["z-index", "stack-order", "layer", "depth"],
+          "correct": 0,
+          "explanation": "The 'z-index' property controls the stacking order of positioned elements."
+        }
+      ],
+      "hard": [
+        {
+          "id": 26,
+          "question": "What is a closure in JavaScript?",
+          "options": ["A way to close browser windows", "A function with access to outer scope", "A method to end loops", "A type of array"],
+          "correct": 1,
+          "explanation": "A closure is a function that has access to variables in its outer (enclosing) scope even after the outer function has finished executing. It 'closes over' these variables."
+        },
+        {
+          "id": 27,
+          "question": "What is the difference between '==' and '===' in JavaScript?",
+          "options": ["No difference", "=== checks type and value", "== is faster", "=== is deprecated"],
+          "correct": 1,
+          "explanation": "The === operator checks for strict equality (both value and type must match), while == performs type coercion before comparison."
+        },
+        {
+          "id": 28,
+          "question": "What is event bubbling in JavaScript?",
+          "options": ["Creating new events", "Events propagating up the DOM tree", "Delaying event execution", "Combining multiple events"],
+          "correct": 1,
+          "explanation": "Event bubbling is when an event starts from the target element and propagates up through its parent elements in the DOM tree."
+        },
+        {
+          "id": 29,
+          "question": "What is the purpose of 'use strict' in JavaScript?",
+          "options": ["Makes code run faster", "Enforces stricter parsing and error handling", "Enables new features", "Compresses code"],
+          "correct": 1,
+          "explanation": "'use strict' enables strict mode, which enforces stricter parsing and error handling in JavaScript code."
+        },
+        {
+          "id": 30,
+          "question": "What is a Promise in JavaScript?",
+          "options": ["A guarantee that code will work", "An object representing eventual completion of an async operation", "A type of variable", "A loop structure"],
+          "correct": 1,
+          "explanation": "A Promise is an object that represents the eventual completion (or failure) of an asynchronous operation and its resulting value."
+        },
+        {
+          "id": 96,
+          "question": "What is the CSS Grid property used to define columns?",
+          "options": ["grid-columns", "grid-template-columns", "grid-column-template", "column-grid"],
+          "correct": 1,
+          "explanation": "The 'grid-template-columns' property defines the columns in a CSS Grid."
+        },
+        {
+          "id": 97,
+          "question": "What is hoisting in JavaScript?",
+          "options": ["Moving code to the top", "Variable and function declarations moved to top of scope", "Lifting heavy objects", "Optimizing performance"],
+          "correct": 1,
+          "explanation": "Hoisting is JavaScript's behavior of moving variable and function declarations to the top of their scope."
+        },
+        {
+          "id": 98,
+          "question": "What is the purpose of the async/await keywords in JavaScript?",
+          "options": ["To make code run faster", "To handle asynchronous operations", "To create animations", "To validate data"],
+          "correct": 1,
+          "explanation": "async/await keywords are used to handle asynchronous operations in a more readable way."
+        },
+        {
+          "id": 99,
+          "question": "What is CSS flexbox used for?",
+          "options": ["Creating animations", "Layout and alignment of elements", "Styling text", "Creating gradients"],
+          "correct": 1,
+          "explanation": "CSS Flexbox is used for layout and alignment of elements in a flexible way."
+        },
+        {
+          "id": 100,
+          "question": "What is the difference between null and undefined in JavaScript?",
+          "options": ["No difference", "null is assigned, undefined is not initialized", "undefined is faster", "null is deprecated"],
+          "correct": 1,
+          "explanation": "'null' is an assigned value representing no value, while 'undefined' means a variable has been declared but not assigned."
+        }
+      ]
+    },
+    "dispatch": {
+      "easy": [
+        {
+          "id": 31,
+          "question": "What does ETA stand for in logistics?",
+          "options": ["Estimated Time of Arrival", "Expected Transport Allocation", "Emergency Transport Alert", "Efficient Traffic Analysis"],
+          "correct": 0,
+          "explanation": "ETA stands for Estimated Time of Arrival. It represents the expected time when a shipment, vehicle, or person will arrive at a destination."
+        },
+        {
+          "id": 32,
+          "question": "Which is the most common method of freight transportation?",
+          "options": ["Air", "Rail", "Road", "Sea"],
+          "correct": 2,
+          "explanation": "Road transportation is the most common method for freight due to its flexibility, door-to-door service capability, and extensive road networks."
+        },
+        {
+          "id": 33,
+          "question": "What does GPS stand for?",
+          "options": ["Global Positioning System", "General Purpose System", "Geographic Planning Service", "Global Planning System"],
+          "correct": 0,
+          "explanation": "GPS stands for Global Positioning System, a satellite-based navigation system."
+        },
+        {
+          "id": 34,
+          "question": "What is a delivery route?",
+          "options": ["A type of vehicle", "A planned path for deliveries", "A shipping container", "A payment method"],
+          "correct": 1,
+          "explanation": "A delivery route is a planned path or sequence of stops for making deliveries efficiently."
+        },
+        {
+          "id": 35,
+          "question": "What does COD stand for in shipping?",
+          "options": ["Cash on Delivery", "Cost of Delivery", "Certificate of Delivery", "Customs on Demand"],
+          "correct": 0,
+          "explanation": "COD stands for Cash on Delivery, a payment method where payment is collected upon delivery."
+        },
+        {
+          "id": 36,
+          "question": "What is freight?",
+          "options": ["A type of vehicle", "Goods transported in bulk", "A shipping document", "A payment fee"],
+          "correct": 1,
+          "explanation": "Freight refers to goods or cargo transported in bulk by truck, train, ship, or aircraft."
+        },
+        {
+          "id": 37,
+          "question": "What is a dispatch center?",
+          "options": ["A warehouse", "A central location for coordinating operations", "A type of vehicle", "A shipping method"],
+          "correct": 1,
+          "explanation": "A dispatch center is a central location where operations are coordinated and vehicles/personnel are assigned to tasks."
+        },
+        {
+          "id": 38,
+          "question": "What does LTL stand for in shipping?",
+          "options": ["Less Than Load", "Large Transport Load", "Long Term Lease", "Limited Time License"],
+          "correct": 0,
+          "explanation": "LTL stands for Less Than Truckload, referring to shipments that don't require a full truck."
+        },
+        {
+          "id": 39,
+          "question": "What is a manifest in shipping?",
+          "options": ["A type of container", "A document listing cargo details", "A shipping route", "A payment receipt"],
+          "correct": 1,
+          "explanation": "A manifest is a document that lists the details of cargo being transported."
+        },
+        {
+          "id": 40,
+          "question": "What does DOT stand for in transportation?",
+          "options": ["Department of Transportation", "Document of Transit", "Delivery on Time", "Direct Operations Team"],
+          "correct": 0,
+          "explanation": "DOT stands for Department of Transportation, the government agency that regulates transportation."
+        },
+        {
+          "id": 101,
+          "question": "What is a warehouse?",
+          "options": ["A type of vehicle", "A storage facility for goods", "A shipping route", "A delivery method"],
+          "correct": 1,
+          "explanation": "A warehouse is a large building used for storing goods and materials."
+        },
+        {
+          "id": 102,
+          "question": "What does FOB stand for in shipping?",
+          "options": ["Free on Board", "Freight on Board", "First on Board", "Final on Board"],
+          "correct": 0,
+          "explanation": "FOB stands for Free on Board, indicating when ownership and liability transfer."
+        },
+        {
+          "id": 103,
+          "question": "What is a pallet?",
+          "options": ["A shipping document", "A flat platform for stacking goods", "A type of vehicle", "A payment method"],
+          "correct": 1,
+          "explanation": "A pallet is a flat platform used for stacking and transporting goods."
+        },
+        {
+          "id": 104,
+          "question": "What is cargo?",
+          "options": ["A type of ship", "Goods being transported", "A shipping route", "A delivery schedule"],
+          "correct": 1,
+          "explanation": "Cargo refers to goods or products being transported by various means."
+        },
+        {
+          "id": 105,
+          "question": "What does RFID stand for?",
+          "options": ["Radio Frequency Identification", "Rapid Freight Information Data", "Real-time Fleet Information Display", "Remote Facility Identification"],
+          "correct": 0,
+          "explanation": "RFID stands for Radio Frequency Identification, used for tracking items."
+        }
+      ],
+      "medium": [
+        {
+          "id": 41,
+          "question": "What is a Bill of Lading?",
+          "options": ["A payment receipt", "A shipping document", "An insurance policy", "A driver's license"],
+          "correct": 1,
+          "explanation": "A Bill of Lading is a legal document that serves as a receipt for cargo and a contract for transportation. It details the type, quantity, and destination of the goods being carried."
+        },
+        {
+          "id": 42,
+          "question": "What is deadhead in transportation?",
+          "options": ["A broken vehicle", "Operating a vehicle without cargo", "Maximum weight limit", "Emergency stop"],
+          "correct": 1,
+          "explanation": "Deadhead refers to operating a vehicle without cargo or passengers, typically when returning from a delivery."
+        },
+        {
+          "id": 43,
+          "question": "What is cross-docking?",
+          "options": ["Loading multiple vehicles", "Transferring goods directly between vehicles", "Vehicle maintenance", "Route planning"],
+          "correct": 1,
+          "explanation": "Cross-docking is the practice of unloading goods from incoming vehicles and loading them directly onto outbound vehicles with minimal storage time."
+        },
+        {
+          "id": 44,
+          "question": "What does EDI stand for in logistics?",
+          "options": ["Electronic Data Interchange", "Emergency Dispatch Information", "Efficient Delivery Index", "Electronic Document Identification"],
+          "correct": 0,
+          "explanation": "EDI stands for Electronic Data Interchange, a system for exchanging business documents electronically."
+        },
+        {
+          "id": 45,
+          "question": "What is a freight broker?",
+          "options": ["A vehicle driver", "An intermediary between shippers and carriers", "A warehouse manager", "A customs officer"],
+          "correct": 1,
+          "explanation": "A freight broker is an intermediary who arranges transportation between shippers and carriers."
+        },
+        {
+          "id": 106,
+          "question": "What is inventory management?",
+          "options": ["Counting money", "Tracking and controlling stock levels", "Managing employees", "Planning routes"],
+          "correct": 1,
+          "explanation": "Inventory management involves tracking and controlling stock levels to optimize operations."
+        },
+        {
+          "id": 107,
+          "question": "What is a distribution center?",
+          "options": ["A type of vehicle", "A facility for storing and shipping products", "A software system", "A payment method"],
+          "correct": 1,
+          "explanation": "A distribution center is a facility used for storing and shipping products to customers."
+        },
+        {
+          "id": 108,
+          "question": "What does TMS stand for in logistics?",
+          "options": ["Transportation Management System", "Total Management Solution", "Traffic Monitoring Service", "Transport Maintenance System"],
+          "correct": 0,
+          "explanation": "TMS stands for Transportation Management System, software for managing transportation operations."
+        },
+        {
+          "id": 109,
+          "question": "What is intermodal transportation?",
+          "options": ["Using one mode of transport", "Using multiple modes of transport", "Emergency transportation", "Local delivery only"],
+          "correct": 1,
+          "explanation": "Intermodal transportation involves using multiple modes of transport for a single journey."
+        },
+        {
+          "id": 110,
+          "question": "What is a shipping manifest?",
+          "options": ["A vehicle inspection", "A detailed list of cargo", "A payment receipt", "A route map"],
+          "correct": 1,
+          "explanation": "A shipping manifest is a detailed list of all cargo being transported."
+        }
+      ],
+      "hard": [
+        {
+          "id": 46,
+          "question": "What is the primary purpose of route optimization in dispatch?",
+          "options": ["Reduce fuel costs", "Minimize delivery time", "Improve customer satisfaction", "All of the above"],
+          "correct": 3,
+          "explanation": "Route optimization aims to find the most efficient routes to reduce fuel costs, minimize delivery time, and improve customer satisfaction by ensuring timely deliveries."
+        },
+        {
+          "id": 47,
+          "question": "What is fleet management software primarily used for?",
+          "options": ["Vehicle maintenance only", "Comprehensive vehicle and driver management", "Route planning only", "Fuel monitoring only"],
+          "correct": 1,
+          "explanation": "Fleet management software provides comprehensive tools for managing vehicles, drivers, routes, maintenance, and operational efficiency."
+        },
+        {
+          "id": 48,
+          "question": "What is the difference between FTL and LTL shipping?",
+          "options": ["No difference", "FTL uses full truck capacity, LTL shares truck space", "FTL is faster, LTL is cheaper", "FTL is for international, LTL is domestic"],
+          "correct": 1,
+          "explanation": "FTL (Full Truckload) uses the entire truck capacity for one shipment, while LTL (Less Than Truckload) combines multiple smaller shipments in one truck."
+        },
+        {
+          "id": 49,
+          "question": "What is supply chain visibility?",
+          "options": ["Seeing physical goods", "Real-time tracking and monitoring of supply chain operations", "Warehouse lighting", "Vehicle inspection"],
+          "correct": 1,
+          "explanation": "Supply chain visibility refers to the ability to track and monitor goods, information, and processes throughout the entire supply chain in real-time."
+        },
+        {
+          "id": 50,
+          "question": "What is just-in-time (JIT) delivery?",
+          "options": ["Delivering at any time", "Delivering goods exactly when needed", "Fast delivery service", "Emergency delivery"],
+          "correct": 1,
+          "explanation": "Just-in-time (JIT) delivery is a strategy where goods are delivered exactly when they are needed, minimizing inventory costs and storage requirements."
+        },
+        {
+          "id": 111,
+          "question": "What is supply chain optimization?",
+          "options": ["Making supply chains longer", "Improving efficiency and reducing costs", "Adding more suppliers", "Eliminating technology"],
+          "correct": 1,
+          "explanation": "Supply chain optimization involves improving efficiency and reducing costs across the entire supply chain."
+        },
+        {
+          "id": 112,
+          "question": "What is vendor-managed inventory (VMI)?",
+          "options": ["Customers manage vendor inventory", "Vendors manage customer inventory", "No inventory management", "Automated inventory only"],
+          "correct": 1,
+          "explanation": "VMI is a system where vendors manage their customers' inventory levels."
+        },
+        {
+          "id": 113,
+          "question": "What is the purpose of load planning in logistics?",
+          "options": ["Planning employee workload", "Optimizing cargo arrangement", "Planning building loads", "Electrical load planning"],
+          "correct": 1,
+          "explanation": "Load planning involves optimizing how cargo is arranged and distributed in transportation vehicles."
+        },
+        {
+          "id": 114,
+          "question": "What is reverse logistics?",
+          "options": ["Driving in reverse", "Managing returns and recycling", "Backward route planning", "Reverse engineering"],
+          "correct": 1,
+          "explanation": "Reverse logistics involves managing the flow of products from customers back to manufacturers for returns, recycling, or disposal."
+        },
+        {
+          "id": 115,
+          "question": "What is demand forecasting in supply chain management?",
+          "options": ["Predicting weather", "Predicting customer demand", "Forecasting employee needs", "Predicting vehicle breakdowns"],
+          "correct": 1,
+          "explanation": "Demand forecasting involves predicting future customer demand to optimize inventory and production planning."
+        }
+      ]
+    },
+    "cybersecurity": {
+      "easy": [
+        {
+          "id": 51,
+          "question": "What does VPN stand for?",
+          "options": ["Virtual Private Network", "Very Private Network", "Verified Protection Network", "Virtual Protection Node"],
+          "correct": 0,
+          "explanation": "VPN stands for Virtual Private Network. It creates a secure, encrypted connection over the internet between your device and a remote server."
+        },
+        {
+          "id": 52,
+          "question": "What is phishing?",
+          "options": ["A type of fishing", "A method to catch malware", "A social engineering attack", "A network protocol"],
+          "correct": 2,
+          "explanation": "Phishing is a social engineering attack where attackers impersonate legitimate organizations to steal sensitive information like passwords, credit card numbers, or personal data."
+        },
+        {
+          "id": 53,
+          "question": "What is malware?",
+          "options": ["Good software", "Malicious software", "Hardware component", "Network protocol"],
+          "correct": 1,
+          "explanation": "Malware is malicious software designed to damage, disrupt, or gain unauthorized access to computer systems."
+        },
+        {
+          "id": 54,
+          "question": "What is a firewall?",
+          "options": ["A physical wall", "Network security system", "Antivirus software", "Password manager"],
+          "correct": 1,
+          "explanation": "A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on security rules."
+        },
+        {
+          "id": 55,
+          "question": "What does SSL stand for?",
+          "options": ["Secure Socket Layer", "System Security Lock", "Safe Site Link", "Secure Server Login"],
+          "correct": 0,
+          "explanation": "SSL stands for Secure Socket Layer, a protocol for establishing encrypted links between web servers and browsers."
+        },
+        {
+          "id": 56,
+          "question": "What is a strong password?",
+          "options": ["Your name", "123456", "A complex mix of characters, numbers, and symbols", "password"],
+          "correct": 2,
+          "explanation": "A strong password is a complex combination of uppercase and lowercase letters, numbers, and special characters."
+        },
+        {
+          "id": 57,
+          "question": "What is social engineering?",
+          "options": ["Building social networks", "Manipulating people to divulge information", "Software engineering", "Network engineering"],
+          "correct": 1,
+          "explanation": "Social engineering is the practice of manipulating people to divulge confidential information or perform actions that compromise security."
+        },
+        {
+          "id": 58,
+          "question": "What is encryption?",
+          "options": ["Deleting data", "Converting data into code", "Backing up data", "Organizing data"],
+          "correct": 1,
+          "explanation": "Encryption is the process of converting readable data into an encoded format that can only be read with the correct decryption key."
+        },
+        {
+          "id": 59,
+          "question": "What is antivirus software?",
+          "options": ["Software that creates viruses", "Software that detects and removes malware", "Software for creating backups", "Software for browsing the internet"],
+          "correct": 1,
+          "explanation": "Antivirus software is designed to detect, prevent, and remove malicious software from computer systems."
+        },
+        {
+          "id": 60,
+          "question": "What is a virus in cybersecurity?",
+          "options": ["A biological virus", "Malicious code that replicates itself", "Network hardware", "Security protocol"],
+          "correct": 1,
+          "explanation": "In cybersecurity, a virus is malicious code that can replicate itself and spread to other programs or systems."
+        },
+        {
+          "id": 116,
+          "question": "What is a trojan horse in cybersecurity?",
+          "options": ["A wooden horse", "Malware disguised as legitimate software", "A security tool", "A network device"],
+          "correct": 1,
+          "explanation": "A trojan horse is malware that disguises itself as legitimate software to trick users into installing it."
+        },
+        {
+          "id": 117,
+          "question": "What is spyware?",
+          "options": ["Software for spies", "Malware that secretly gathers information", "Antivirus software", "Gaming software"],
+          "correct": 1,
+          "explanation": "Spyware is malicious software that secretly gathers information about users without their knowledge."
+        },
+        {
+          "id": 118,
+          "question": "What is a password manager?",
+          "options": ["A person who manages passwords", "Software that stores and manages passwords", "A type of malware", "A network security device"],
+          "correct": 1,
+          "explanation": "A password manager is software that securely stores and manages passwords for various accounts."
+        },
+        {
+          "id": 119,
+          "question": "What is adware?",
+          "options": ["Software that displays advertisements", "Antivirus software", "Hardware component", "Network protocol"],
+          "correct": 0,
+          "explanation": "Adware is software that automatically displays or downloads advertising content."
+        },
+        {
+          "id": 120,
+          "question": "What is a computer worm?",
+          "options": ["A physical worm", "Self-replicating malware", "A security tool", "A network cable"],
+          "correct": 1,
+          "explanation": "A computer worm is self-replicating malware that spreads across networks without user intervention."
+        }
+      ],
+      "medium": [
+        {
+          "id": 61,
+          "question": "What is two-factor authentication?",
+          "options": ["Using two passwords", "Using two different login methods", "Using password and additional verification", "Using two browsers"],
+          "correct": 2,
+          "explanation": "Two-factor authentication (2FA) is a security process that requires two different authentication factors: something you know (password) and something you have (phone, token) or are (biometric)."
+        },
+        {
+          "id": 62,
+          "question": "What is a DDoS attack?",
+          "options": ["Data theft", "Distributed Denial of Service", "Direct Database Operation", "Digital Document Security"],
+          "correct": 1,
+          "explanation": "A DDoS (Distributed Denial of Service) attack attempts to make a service unavailable by overwhelming it with traffic from multiple sources."
+        },
+        {
+          "id": 63,
+          "question": "What is penetration testing?",
+          "options": ["Testing network speed", "Authorized testing for vulnerabilities", "Installing software", "Creating backups"],
+          "correct": 1,
+          "explanation": "Penetration testing is authorized testing of systems to find vulnerabilities that could be exploited by attackers."
+        },
+        {
+          "id": 64,
+          "question": "What is a botnet?",
+          "options": ["Network of infected computers", "Antivirus software", "Firewall system", "Encryption method"],
+          "correct": 0,
+          "explanation": "A botnet is a network of infected computers controlled remotely by cybercriminals to perform malicious activities."
+        },
+        {
+          "id": 65,
+          "question": "What is ransomware?",
+          "options": ["Free software", "Malware that encrypts files for ransom", "Antivirus software", "Network protocol"],
+          "correct": 1,
+          "explanation": "Ransomware is malicious software that encrypts a victim's files and demands payment for the decryption key."
+        },
+        {
+          "id": 121,
+          "question": "What is a honeypot in cybersecurity?",
+          "options": ["A sweet security system", "A decoy system to attract attackers", "A type of malware", "A password storage"],
+          "correct": 1,
+          "explanation": "A honeypot is a decoy system designed to attract and detect attackers."
+        },
+        {
+          "id": 122,
+          "question": "What is SQL injection?",
+          "options": ["A medical procedure", "A code injection attack on databases", "A type of encryption", "A network protocol"],
+          "correct": 1,
+          "explanation": "SQL injection is a code injection attack that targets databases by inserting malicious SQL statements."
+        },
+        {
+          "id": 123,
+          "question": "What is social media phishing?",
+          "options": ["Fishing on social media", "Fraudulent social media posts to steal information", "Social networking", "Media sharing"],
+          "correct": 1,
+          "explanation": "Social media phishing involves using fraudulent social media posts or messages to steal personal information."
+        },
+        {
+          "id": 124,
+          "question": "What is endpoint security?",
+          "options": ["Security at the end of roads", "Protecting end-user devices", "Final security check", "Network termination security"],
+          "correct": 1,
+          "explanation": "Endpoint security focuses on protecting end-user devices like computers, phones, and tablets."
+        },
+        {
+          "id": 125,
+          "question": "What is a security audit?",
+          "options": ["Financial audit", "Systematic evaluation of security measures", "Audio security", "Automated security"],
+          "correct": 1,
+          "explanation": "A security audit is a systematic evaluation of an organization's security measures and policies."
+        }
+      ],
+      "hard": [
+        {
+          "id": 66,
+          "question": "What is a zero-day exploit?",
+          "options": ["An exploit found on day zero", "An exploit with no patch available", "An exploit that takes zero days to execute", "An exploit that costs zero dollars"],
+          "correct": 1,
+          "explanation": "A zero-day exploit takes advantage of a security vulnerability that is unknown to the software vendor and for which no patch or fix has been released."
+        },
+        {
+          "id": 67,
+          "question": "What is the principle of least privilege?",
+          "options": ["Giving maximum access to all users", "Giving minimum necessary access", "Removing all privileges", "Sharing all passwords"],
+          "correct": 1,
+          "explanation": "The principle of least privilege means giving users only the minimum access rights needed to perform their job functions."
+        },
+        {
+          "id": 68,
+          "question": "What is a man-in-the-middle attack?",
+          "options": ["Physical assault", "Intercepting communications between two parties", "Password attack", "Virus infection"],
+          "correct": 1,
+          "explanation": "A man-in-the-middle attack occurs when an attacker secretly intercepts and potentially alters communications between two parties."
+        },
+        {
+          "id": 69,
+          "question": "What is PKI in cybersecurity?",
+          "options": ["Password Key Integration", "Public Key Infrastructure", "Private Key Installation", "Protected Key Interface"],
+          "correct": 1,
+          "explanation": "PKI (Public Key Infrastructure) is a framework that manages digital keys and certificates for secure communication."
+        },
+        {
+          "id": 70,
+          "question": "What is advanced persistent threat (APT)?",
+          "options": ["Simple malware", "Long-term targeted cyber attack", "Antivirus feature", "Network protocol"],
+          "correct": 1,
+          "explanation": "An Advanced Persistent Threat (APT) is a prolonged and targeted cyber attack where attackers gain access to a network and remain undetected for extended periods."
+        },
+        {
+          "id": 126,
+          "question": "What is cryptographic hashing?",
+          "options": ["Breaking encryption", "One-way function that converts data to fixed-size hash", "Symmetric encryption", "Password storage"],
+          "correct": 1,
+          "explanation": "Cryptographic hashing is a one-way function that converts input data into a fixed-size hash value."
+        },
+        {
+          "id": 127,
+          "question": "What is a digital certificate?",
+          "options": ["Online degree", "Electronic document that proves identity", "Digital signature", "Encrypted file"],
+          "correct": 1,
+          "explanation": "A digital certificate is an electronic document that uses a digital signature to bind a public key with an identity."
+        },
+        {
+          "id": 128,
+          "question": "What is threat modeling?",
+          "options": ["Creating threat scenarios", "Systematic approach to identify security threats", "Modeling software", "Threat simulation"],
+          "correct": 1,
+          "explanation": "Threat modeling is a systematic approach to identify, understand, and address potential security threats."
+        },
+        {
+          "id": 129,
+          "question": "What is behavioral analytics in cybersecurity?",
+          "options": ["Analyzing user behavior", "Detecting anomalies in system behavior", "Psychology study", "Performance analysis"],
+          "correct": 1,
+          "explanation": "Behavioral analytics involves detecting anomalies in system or user behavior that might indicate security threats."
+        },
+        {
+          "id": 130,
+          "question": "What is incident response?",
+          "options": ["Responding to emails", "Systematic approach to handle security incidents", "Customer service", "Technical support"],
+          "correct": 1,
+          "explanation": "Incident response is a systematic approach to handle and manage security incidents and breaches."
+        }
+      ]
+    }
+  }
+  
